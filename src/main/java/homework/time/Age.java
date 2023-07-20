@@ -28,5 +28,6 @@ public class Age extends HttpServlet {
         if (i < 18) {
             writer.println("Not ok");
         }
+        writer.close();
     }
 }
