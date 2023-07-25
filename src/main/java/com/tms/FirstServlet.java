@@ -16,17 +16,14 @@ import java.io.PrintWriter;
 public class FirstServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.setContentType("text/html");
-        PrintWriter writer = resp.getWriter();
-        writer.println("Hello from first servlet. Group 67!");
-
         String name = req.getParameter("name");
-        writer.println("My name is " + name);
-        writer.close();
+        req.setAttribute("nameKey", name);
+        getServletContext().getRequestDispatcher("/").forward(req, resp);
+        //как вызывать страницы(html, jsp, ftl)
     }
 
     @Override
-    public void init(ServletConfig config) throws ServletException {
+    public void init() throws ServletException {
         System.out.println("Servlet start ....");
 
     }
