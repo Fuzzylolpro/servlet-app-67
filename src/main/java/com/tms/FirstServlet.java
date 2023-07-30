@@ -11,12 +11,15 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.io.Writer;
 
 @WebServlet("/first")
 public class FirstServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        String name = req.getParameter("name");
+        String name = req.getParameter("firstname");
+        String name1 = req.getParameter("lastname");
+
         req.setAttribute("nameKey", name);
         getServletContext().getRequestDispatcher("/").forward(req, resp);
         //как вызывать страницы(html, jsp, ftl)
