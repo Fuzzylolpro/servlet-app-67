@@ -23,6 +23,7 @@ public class FirstServlet extends HttpServlet {
         req.setAttribute("nameKey", name);
         getServletContext().getRequestDispatcher("/").forward(req, resp);
         //как вызывать страницы(html, jsp, ftl)
+
     }
 
     @Override

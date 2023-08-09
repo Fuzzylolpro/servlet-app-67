@@ -7,5 +7,6 @@
 <body>
 <h1>Saved successfully</h1>
 <p>${successMessage}</p>
+name: <%= request.getAttribute("name") %>
 </body>
 </html>
