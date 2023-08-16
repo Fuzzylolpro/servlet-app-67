@@ -9,7 +9,7 @@
 
     <!--  <servlet>
         <servlet-name>hello</servlet-name>
-        <servlet-class>com.tms.FirstServlet</servlet-class>
+        <servlet-class>homework.time.uf.FirstServlet</servlet-class>
       </servlet>
 
       <servlet-mapping>
@@ -19,11 +19,11 @@
 
     <!--  <filter>
         <filter-name>filter-67</filter-name>
-        <filter-class>com.tms.filter.LogFilter</filter-class>
+        <filter-class>homework.time.uf.filter.LogFilter</filter-class>
       </filter>
       <filter>
         <filter-name>filter-67-2</filter-name>
-        <filter-class>com.tms.filter.LogSecondFilter</filter-class>
+        <filter-class>homework.time.uf.filter.LogSecondFilter</filter-class>
       </filter>
 
       <filter-mapping>
