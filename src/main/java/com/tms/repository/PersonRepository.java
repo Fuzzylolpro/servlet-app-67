@@ -24,7 +24,7 @@ public class PersonRepository {
         }
     }
 
-    /* public List<Person> getAll() {
+     public List<Person> getAll() {
          List<Person> list = new ArrayList<>();
          try {
              PreparedStatement statement = connection.prepareStatement("select * from person");
@@ -37,7 +37,7 @@ public class PersonRepository {
              System.out.println(e);
          }
          return list;
-     }*/
+     }
     public Boolean create(Person person) {
         try {
             PreparedStatement statement = connection.prepareStatement("insert into person(id,first_name,second_name,age,is_married,created)" + "VALUES (default,?,?,?,?,?)");
