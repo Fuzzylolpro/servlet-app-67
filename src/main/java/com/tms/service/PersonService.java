@@ -1,8 +1,10 @@
 package com.tms.service;
 
 import com.tms.domain.Person;
+import com.tms.domain.Role;
 import com.tms.repository.PersonRepository;
 import jakarta.servlet.http.HttpServletRequest;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 
@@ -17,11 +19,11 @@ public class PersonService {
 
     public Person getById(HttpServletRequest request) {
         //Logic to find
-        return new Person();
+        return new Person(new Role());
     }
 
     public Boolean createUser(HttpServletRequest request) {
-        Person person = new Person();
+        Person person = new Person(new Role());
         person.setFirstName(request.getParameter("first-name"));
         person.setSecondName(request.getParameter("second-name"));
         person.setAge(Integer.parseInt(request.getParameter("age")));
