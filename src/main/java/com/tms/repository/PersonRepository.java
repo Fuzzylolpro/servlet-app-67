@@ -2,6 +2,7 @@ package com.tms.repository;
 
 import com.tms.domain.Person;
 import com.tms.domain.Role;
+import org.springframework.stereotype.Repository;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -11,7 +12,7 @@ import java.sql.SQLException;
 import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.List;
-
+@Repository
 public class PersonRepository {
     Connection connection;
 

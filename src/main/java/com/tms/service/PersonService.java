@@ -4,17 +4,20 @@ import com.tms.domain.Person;
 import com.tms.domain.Role;
 import com.tms.repository.PersonRepository;
 import jakarta.servlet.http.HttpServletRequest;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
-
+@Service
 public class PersonService {
-    private final PersonRepository personRepository = new PersonRepository();
+    private final PersonRepository personRepository;
 
-    public List<Person> getAll(HttpServletRequest request) {
-        List<Person> resultList = personRepository.getAll();
-        request.setAttribute("result", resultList);
-        return resultList;
+    public PersonService(PersonRepository personRepository) {
+        this.personRepository = personRepository;
+    }
+
+    public List<Person> getAll() {
+        return personRepository.getAll();
+
     }
 
     public Person getById(HttpServletRequest request) {
