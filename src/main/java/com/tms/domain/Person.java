@@ -1,5 +1,6 @@
 package com.tms.domain;
 
+import com.tms.validation.Email67;
 import jakarta.validation.constraints.AssertFalse;
 import jakarta.validation.constraints.AssertTrue;
 import jakarta.validation.constraints.Future;
@@ -31,6 +32,8 @@ public class Person {
     private Boolean isMarried;
     private Timestamp created;
     private Role role;
+    @Email67
+    private String email;
 
 
 }
