@@ -23,8 +23,6 @@ public class Person {
     private Timestamp created;
     private Role role;
 
-    public Person(Role role) {
-        this.role = role;
-    }
+
 }
 

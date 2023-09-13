@@ -9,7 +9,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        Person person = new Person(new Role());
+        Person person = new Person();
         person.setFirstName("Tolia");
         person.setSecondName("karpov");
         person.setAge(68);

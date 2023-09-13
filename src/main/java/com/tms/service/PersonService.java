@@ -22,11 +22,11 @@ public class PersonService {
 
     public Person getById(HttpServletRequest request) {
         //Logic to find
-        return new Person(new Role());
+        return new Person();
     }
 
     public Boolean createUser(HttpServletRequest request) {
-        Person person = new Person(new Role());
+        Person person = new Person();
         person.setFirstName(request.getParameter("first-name"));
         person.setSecondName(request.getParameter("second-name"));
         person.setAge(Integer.parseInt(request.getParameter("age")));
@@ -34,6 +34,10 @@ public class PersonService {
         Boolean isCreated = personRepository.create(person);
         request.setAttribute("result", isCreated);
         return isCreated;
+    }
+
+    public Person getPersonId(long id){
+        return personRepository.getPersonById(id);
     }
 
     public Boolean updateUser(HttpServletRequest request) {
