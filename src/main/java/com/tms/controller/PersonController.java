@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.List;
 
@@ -31,8 +32,8 @@ public class PersonController {
         return "emptyJsp";
     }
 
-    @GetMapping("/{id}")
-    public String getPersonId(Model model,@PathVariable Long id){
+    @GetMapping()
+    public String getPersonId(Model model,@RequestParam("id") Long id){
        Person resultPerson = personService.getPersonId(id);
         if (resultPerson.getId()!=null){
             model.addAttribute("result",resultPerson);
