@@ -20,7 +20,7 @@ public class PersonRepository {
     {
         try {
             Class.forName("org.postgresql.Driver");
-            connection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/group-67-database", "postgres", "root");
+            connection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres", "postgres", "postgres");
             connection.setAutoCommit(false);
         } catch (ClassNotFoundException | SQLException e) {
             throw new RuntimeException(e);
