@@ -25,7 +25,7 @@ public class PersonService {
         return new Person();
     }
 
-    public Boolean createUser(HttpServletRequest request) {
+    public Boolean createPerson(HttpServletRequest request) {
         Person person = new Person();
         person.setFirstName(request.getParameter("first-name"));
         person.setSecondName(request.getParameter("second-name"));

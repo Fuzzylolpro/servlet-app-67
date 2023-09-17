@@ -14,7 +14,7 @@ import java.sql.Timestamp;
 @Setter
 @ToString
 @Component
-public class Users {
+public class User {
     private Long id;
     @Size(min = 2,max = 20)
     @NotNull
@@ -25,4 +25,5 @@ public class Users {
     @Min(value = 18)
     private int age;
     private Timestamp created;
+
 }
