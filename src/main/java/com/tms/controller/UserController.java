@@ -1,6 +1,5 @@
 package com.tms.controller;
 
-import com.tms.domain.Person;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
@@ -38,4 +37,3 @@ public class UserController {
         return "succes";
     }
 }
-
