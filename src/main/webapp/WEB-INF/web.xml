@@ -7,7 +7,6 @@
         version="2.5">
     <display-name>Archetype Created Web Application</display-name>
 
-
     <!--  <servlet>
         <servlet-name>hello</servlet-name>
         <servlet-class>homework.time.uf.FirstServlet</servlet-class>

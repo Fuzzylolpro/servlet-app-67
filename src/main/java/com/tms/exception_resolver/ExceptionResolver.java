@@ -1,0 +1,15 @@
+package com.tms.exception_resolver;
+
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ControllerAdvice;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+
+@ControllerAdvice
+public class ExceptionResolver {
+    @ExceptionHandler(RuntimeException.class)
+    public String exceptionHandlerMethod(Exception e, Model model){
+        model.addAttribute("result","We have exception" + e);
+        System.out.println("We have exeption" + e);
+        return "jspPage";
+    }
+}
