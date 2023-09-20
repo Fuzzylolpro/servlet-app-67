@@ -16,7 +16,7 @@ public class SaveRequestServlet extends HttpServlet {
         String message = request.getParameter("message");
 
         if (name.isEmpty() || email.isEmpty() || message.isEmpty()) {
-            response.sendRedirect("index.ftl");
+            response.sendRedirect("index.html");
         } else {
             String successMessage = "Заявка успешно сохранена:<br><br>" +
                     "Name: " + name + "<br>" +
