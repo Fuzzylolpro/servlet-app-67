@@ -2,21 +2,21 @@ package com.tms.controller;
 
 import com.tms.domain.Person;
 import com.tms.service.PersonService;
-import jakarta.validation.Valid;
-import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
-import org.springframework.validation.BindingResult;
-import org.springframework.validation.ObjectError;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
+import java.util.Optional;
 
-@Controller
+@RestController
 @RequestMapping("/person")
 public class PersonController {
     public final PersonService personService;
@@ -26,41 +26,35 @@ public class PersonController {
     }
 
     //@RequestMapping(value = "/getAll", method = RequestMethod.GET)
-    @GetMapping("/getAll")
-    public String getAll(Model model) {
+    @GetMapping // отдает информацию
+    public ResponseEntity<List<Person>> getAll() {
         List<Person> resultList = personService.getAll();
-        if (!resultList.isEmpty()) {
-            model.addAttribute("result", resultList);
-            Person p = new Person();
-            p.setFirstName("deniska");
-            model.addAttribute("person",p);
-            return "jspPage";
-        }
-        return "emptyJsp";
+        return new ResponseEntity<>(resultList, HttpStatus.OK);
     }
 
-    @GetMapping()
-    public String getPersonId(Model model, @RequestParam("id") Long id) {
-        Person resultPerson = personService.getPersonId(id);
-        if (resultPerson.getId() != null) {
-            model.addAttribute("result", resultPerson);
-            return "jspPage";
+    @GetMapping("/{id}")
+    public ResponseEntity<Person> getPersonId(@PathVariable("id") Long id) {
+        Optional<Person> person =personService.getPersonId(id);
+        if(person.isPresent()){
+            return new ResponseEntity<>(person.get(),HttpStatus.OK);
         }
-        return "emptyJsp";
+        return new ResponseEntity<>(HttpStatus.CONFLICT);
+    }
+    @PostMapping // создает
+    public ResponseEntity<HttpStatus> create(@RequestBody Person person){
+       return new ResponseEntity<>( personService.createPerson(person)?HttpStatus.CREATED : HttpStatus.CONFLICT);
     }
 
-
-    @GetMapping("/is-valid")
-    public String checkValidationPerson(@Valid @ModelAttribute Person person, BindingResult bindingResult, Model model) {
-        List<ObjectError> errors = bindingResult.getAllErrors();
-        if (!bindingResult.hasErrors()){
-            return "emptyJsp";
-        }
-        model.addAttribute("result", errors);
-        return "jspPage";
+    @PutMapping
+    public ResponseEntity<HttpStatus> update(@RequestBody Person person){
+        return new ResponseEntity<>(personService.updatePerson(person)?HttpStatus.NO_CONTENT:HttpStatus.CONFLICT);
+    }
+    @DeleteMapping("/{id}")
+    public ResponseEntity<HttpStatus> delete(@PathVariable("id") Long id){
+        return new ResponseEntity<>(personService.deleteUserById(id)?HttpStatus.NO_CONTENT:HttpStatus.CONFLICT);
     }
 
 
-    //Post
-
+    // @PutMapping изменяет информацию
+    //@DeleteMapping удалить чтото
 }

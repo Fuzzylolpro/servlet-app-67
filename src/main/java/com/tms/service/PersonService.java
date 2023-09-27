@@ -7,6 +7,8 @@ import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
+
 @Service
 public class PersonService {
     private final PersonRepository personRepository;
@@ -25,18 +27,14 @@ public class PersonService {
         return new Person();
     }
 
-    public Boolean createPerson(HttpServletRequest request) {
-        Person person = new Person();
-        person.setFirstName(request.getParameter("first-name"));
-        person.setSecondName(request.getParameter("second-name"));
-        person.setAge(Integer.parseInt(request.getParameter("age")));
-        person.setIsMarried(Boolean.parseBoolean(request.getParameter("is-married")));
-        Boolean isCreated = personRepository.create(person);
-        request.setAttribute("result", isCreated);
-        return isCreated;
+    public Boolean createPerson(Person person) {
+        return personRepository.create(person);
+    }
+    public Boolean updatePerson(Person person) {
+        return personRepository.update(person);
     }
 
-    public Person getPersonId(long id){
+    public Optional<Person> getPersonId(long id){
         return personRepository.getPersonById(id);
     }
 
@@ -46,6 +44,10 @@ public class PersonService {
 
     public Boolean deleteUser(HttpServletRequest request) {
         return false;
+    }
+
+    public Boolean deleteUserById(Long id){
+        return personRepository.deleteById(id);
     }
 
 

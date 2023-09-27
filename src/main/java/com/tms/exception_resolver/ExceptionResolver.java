@@ -9,7 +9,7 @@ public class ExceptionResolver {
     @ExceptionHandler(RuntimeException.class)
     public String exceptionHandlerMethod(Exception e, Model model){
         model.addAttribute("result","We have exception" + e);
-        System.out.println("We have exeption" + e);
+        System.out.println("We have exception" + e);
         return "jspPage";
     }
 }
