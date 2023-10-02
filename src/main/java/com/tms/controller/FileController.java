@@ -1,5 +1,7 @@
 package com.tms.controller;
 
+import io.swagger.v3.oas.annotations.Hidden;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.UrlResource;
 import org.springframework.http.HttpHeaders;
@@ -40,7 +42,6 @@ public class FileController {
         }
         return new ResponseEntity<>(HttpStatus.CONFLICT);
     }
-
     @GetMapping("/{filename}")
     public ResponseEntity<Resource> getFile(@PathVariable String filename) {
         Path path = ROOT_FILE_PATH.resolve(filename);
@@ -57,7 +58,7 @@ public class FileController {
         }
         return new ResponseEntity<>(HttpStatus.NOT_FOUND);
     }
-
+    @Tag(name = "create-tag")
     @GetMapping
     public ResponseEntity<ArrayList<String>> getFiles() {
         try {
@@ -68,7 +69,6 @@ public class FileController {
         }
         return new ResponseEntity<>(HttpStatus.CONFLICT);
     }
-
     @DeleteMapping("/{filename}")
     public ResponseEntity<HttpStatus> deleteFile(@PathVariable String filename) {
         Path path = ROOT_FILE_PATH.resolve(filename);
