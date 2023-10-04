@@ -8,8 +8,6 @@ import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.extern.slf4j.Slf4j;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -66,10 +64,10 @@ public class PersonController {
             @ApiResponse(responseCode = "404", description = "ИД не найден")})
     @Operation(summary = "удаляет пользователя из бд",description = "Берет ид, ищет пользователя и удаляет")
     @DeleteMapping("/{id}")
-    public ResponseEntity<HttpStatus> delete(@Parameter(description = "Это id persona который хотим удалять") @PathVariable("id") Long id){
-        return new ResponseEntity<>(personService.deleteUserById(id)?HttpStatus.NO_CONTENT:HttpStatus.CONFLICT);
-    }
 
+    public ResponseEntity<HttpStatus> delete(@Parameter(description = "Это id persona который хотим удалять") @PathVariable("id") Long id){
+        return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+    }
 
     // @PutMapping изменяет информацию
     //@DeleteMapping удалить чтото

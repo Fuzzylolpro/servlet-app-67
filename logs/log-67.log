@@ -1,58 +1,53 @@
-02-10-2023 21:35:18.098 [main] INFO  com.tms.Main.logStarting - Starting Main using Java 17.0.7 with PID 4368 (C:\Users\Алексей\IdeaProjects\servlet-app-67\target\classes started by Алексей in C:\Users\Алексей\IdeaProjects\servlet-app-67)
-02-10-2023 21:35:18.101 [main] INFO  com.tms.Main.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
-02-10-2023 21:35:19.080 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
-02-10-2023 21:35:19.086 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
-02-10-2023 21:35:19.086 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.12]
-02-10-2023 21:35:19.213 [main] INFO  o.apache.jasper.servlet.TldScanner.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-02-10-2023 21:35:19.216 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
-02-10-2023 21:35:19.217 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1080 ms
-02-10-2023 21:35:20.404 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 4 endpoint(s) beneath base path '/actuator'
-02-10-2023 21:35:20.449 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
-02-10-2023 21:35:20.458 [main] INFO  com.tms.Main.logStarted - Started Main in 2.663 seconds (process running for 3.126)
-02-10-2023 21:35:20.986 [RMI TCP Connection(1)-192.168.1.70] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
-02-10-2023 21:35:20.987 [RMI TCP Connection(1)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
-02-10-2023 21:35:20.987 [RMI TCP Connection(1)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 0 ms
-02-10-2023 21:36:17.466 [main] INFO  com.tms.Main.logStarting - Starting Main using Java 17.0.7 with PID 6532 (C:\Users\Алексей\IdeaProjects\servlet-app-67\target\classes started by Алексей in C:\Users\Алексей\IdeaProjects\servlet-app-67)
-02-10-2023 21:36:17.468 [main] INFO  com.tms.Main.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
-02-10-2023 21:36:18.424 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
-02-10-2023 21:36:18.431 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
-02-10-2023 21:36:18.431 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.12]
-02-10-2023 21:36:18.559 [main] INFO  o.apache.jasper.servlet.TldScanner.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-02-10-2023 21:36:18.563 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
-02-10-2023 21:36:18.563 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1059 ms
-02-10-2023 21:36:19.728 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 4 endpoint(s) beneath base path '/actuator'
-02-10-2023 21:36:19.774 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
-02-10-2023 21:36:19.784 [main] INFO  com.tms.Main.logStarted - Started Main in 2.609 seconds (process running for 3.191)
-02-10-2023 21:36:20.347 [RMI TCP Connection(3)-192.168.1.70] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
-02-10-2023 21:36:20.348 [RMI TCP Connection(3)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
-02-10-2023 21:36:20.348 [RMI TCP Connection(3)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 0 ms
-02-10-2023 21:44:48.079 [main] INFO  com.tms.Main.logStarting - Starting Main using Java 17.0.7 with PID 8892 (C:\Users\Алексей\IdeaProjects\servlet-app-67\target\classes started by Алексей in C:\Users\Алексей\IdeaProjects\servlet-app-67)
-02-10-2023 21:44:48.081 [main] INFO  com.tms.Main.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
-02-10-2023 21:44:49.040 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
-02-10-2023 21:44:49.045 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
-02-10-2023 21:44:49.046 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.12]
-02-10-2023 21:44:49.168 [main] INFO  o.apache.jasper.servlet.TldScanner.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-02-10-2023 21:44:49.172 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
-02-10-2023 21:44:49.172 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1055 ms
-02-10-2023 21:44:50.352 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 4 endpoint(s) beneath base path '/actuator'
-02-10-2023 21:44:50.398 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
-02-10-2023 21:44:50.408 [main] INFO  com.tms.Main.logStarted - Started Main in 2.618 seconds (process running for 3.06)
-02-10-2023 21:44:50.496 [RMI TCP Connection(1)-192.168.1.70] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
-02-10-2023 21:44:50.496 [RMI TCP Connection(1)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
-02-10-2023 21:44:50.497 [RMI TCP Connection(1)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
-02-10-2023 21:44:57.733 [http-nio-8080-exec-1] INFO  com.tms.controller.PersonController.getAll - Метод работает
-02-10-2023 21:46:28.972 [main] INFO  com.tms.Main.logStarting - Starting Main using Java 17.0.7 with PID 2296 (C:\Users\Алексей\IdeaProjects\servlet-app-67\target\classes started by Алексей in C:\Users\Алексей\IdeaProjects\servlet-app-67)
-02-10-2023 21:46:28.974 [main] INFO  com.tms.Main.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
-02-10-2023 21:46:29.927 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
-02-10-2023 21:46:29.933 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
-02-10-2023 21:46:29.933 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.12]
-02-10-2023 21:46:30.056 [main] INFO  o.apache.jasper.servlet.TldScanner.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-02-10-2023 21:46:30.059 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
-02-10-2023 21:46:30.060 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1049 ms
-02-10-2023 21:46:31.239 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 4 endpoint(s) beneath base path '/actuator'
-02-10-2023 21:46:31.283 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
-02-10-2023 21:46:31.292 [main] INFO  com.tms.Main.logStarted - Started Main in 2.609 seconds (process running for 3.043)
-02-10-2023 21:46:31.398 [RMI TCP Connection(3)-192.168.1.70] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
-02-10-2023 21:46:31.398 [RMI TCP Connection(3)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
-02-10-2023 21:46:31.399 [RMI TCP Connection(3)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 0 ms
-02-10-2023 21:46:36.913 [http-nio-8080-exec-1] INFO  com.tms.controller.PersonController.getAll - Метод работает
+04-10-2023 20:00:53.455 [main] INFO  com.tms.MyFirstTest.logStarting - Starting MyFirstTest using Java 17.0.7 with PID 10636 (started by Алексей in C:\Users\Алексей\IdeaProjects\servlet-app-67)
+04-10-2023 20:00:53.460 [main] INFO  com.tms.MyFirstTest.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+04-10-2023 20:00:56.076 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 4 endpoint(s) beneath base path '/actuator'
+04-10-2023 20:00:56.121 [main] INFO  com.tms.MyFirstTest.logStarted - Started MyFirstTest in 2.928 seconds (process running for 3.813)
+04-10-2023 20:01:41.498 [main] INFO  com.tms.MyFirstTest.logStarting - Starting MyFirstTest using Java 17.0.7 with PID 12764 (started by Алексей in C:\Users\Алексей\IdeaProjects\servlet-app-67)
+04-10-2023 20:01:41.506 [main] INFO  com.tms.MyFirstTest.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+04-10-2023 20:01:44.010 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 4 endpoint(s) beneath base path '/actuator'
+04-10-2023 20:01:44.054 [main] INFO  com.tms.MyFirstTest.logStarted - Started MyFirstTest in 2.802 seconds (process running for 3.68)
+04-10-2023 20:03:20.343 [main] INFO  com.tms.MyFirstTest.logStarting - Starting MyFirstTest using Java 17.0.7 with PID 11804 (started by Алексей in C:\Users\Алексей\IdeaProjects\servlet-app-67)
+04-10-2023 20:03:20.344 [main] INFO  com.tms.MyFirstTest.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+04-10-2023 20:03:22.835 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 4 endpoint(s) beneath base path '/actuator'
+04-10-2023 20:03:22.884 [main] INFO  com.tms.MyFirstTest.logStarted - Started MyFirstTest in 2.794 seconds (process running for 3.621)
+04-10-2023 20:50:44.692 [main] INFO  c.t.controller.PersonControllerTest.logStarting - Starting PersonControllerTest using Java 17.0.7 with PID 3292 (started by Алексей in C:\Users\Алексей\IdeaProjects\servlet-app-67)
+04-10-2023 20:50:44.694 [main] INFO  c.t.controller.PersonControllerTest.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+04-10-2023 20:50:46.507 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+04-10-2023 20:50:46.508 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+04-10-2023 20:50:46.509 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 1 ms
+04-10-2023 20:50:46.527 [main] INFO  c.t.controller.PersonControllerTest.logStarted - Started PersonControllerTest in 2.148 seconds (process running for 3.037)
+04-10-2023 20:50:46.599 [main] INFO  com.tms.controller.PersonController.getAll - Метод работает
+04-10-2023 20:51:13.536 [main] INFO  c.t.controller.PersonControllerTest.logStarting - Starting PersonControllerTest using Java 17.0.7 with PID 1380 (started by Алексей in C:\Users\Алексей\IdeaProjects\servlet-app-67)
+04-10-2023 20:51:13.538 [main] INFO  c.t.controller.PersonControllerTest.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+04-10-2023 20:51:15.191 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+04-10-2023 20:51:15.191 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+04-10-2023 20:51:15.193 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 1 ms
+04-10-2023 20:51:15.210 [main] INFO  c.t.controller.PersonControllerTest.logStarted - Started PersonControllerTest in 1.992 seconds (process running for 2.823)
+04-10-2023 20:51:15.284 [main] INFO  com.tms.controller.PersonController.getAll - Метод работает
+04-10-2023 20:53:41.213 [main] INFO  c.t.controller.PersonControllerTest.logStarting - Starting PersonControllerTest using Java 17.0.7 with PID 16044 (started by Алексей in C:\Users\Алексей\IdeaProjects\servlet-app-67)
+04-10-2023 20:53:41.214 [main] INFO  c.t.controller.PersonControllerTest.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+04-10-2023 20:53:42.992 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+04-10-2023 20:53:42.993 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+04-10-2023 20:53:42.994 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 1 ms
+04-10-2023 20:53:43.012 [main] INFO  c.t.controller.PersonControllerTest.logStarted - Started PersonControllerTest in 2.113 seconds (process running for 2.95)
+04-10-2023 20:53:43.084 [main] INFO  com.tms.controller.PersonController.getAll - Метод работает
+04-10-2023 21:19:02.239 [main] INFO  c.t.controller.PersonControllerTest.logStarting - Starting PersonControllerTest using Java 17.0.7 with PID 5396 (started by Алексей in C:\Users\Алексей\IdeaProjects\servlet-app-67)
+04-10-2023 21:19:02.241 [main] INFO  c.t.controller.PersonControllerTest.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+04-10-2023 21:19:03.926 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+04-10-2023 21:19:03.927 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+04-10-2023 21:19:03.928 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 1 ms
+04-10-2023 21:19:03.946 [main] INFO  c.t.controller.PersonControllerTest.logStarted - Started PersonControllerTest in 2.014 seconds (process running for 2.858)
+04-10-2023 21:19:04.015 [main] INFO  com.tms.controller.PersonController.getAll - Метод работает
+04-10-2023 21:19:27.590 [main] INFO  c.t.controller.PersonControllerTest.logStarting - Starting PersonControllerTest using Java 17.0.7 with PID 16944 (started by Алексей in C:\Users\Алексей\IdeaProjects\servlet-app-67)
+04-10-2023 21:19:27.592 [main] INFO  c.t.controller.PersonControllerTest.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+04-10-2023 21:19:29.308 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+04-10-2023 21:19:29.309 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+04-10-2023 21:19:29.310 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 1 ms
+04-10-2023 21:19:29.329 [main] INFO  c.t.controller.PersonControllerTest.logStarted - Started PersonControllerTest in 2.04 seconds (process running for 2.895)
+04-10-2023 21:19:29.529 [main] INFO  com.tms.controller.PersonController.getAll - Метод работает
+04-10-2023 21:27:23.216 [main] INFO  c.t.controller.PersonControllerTest.logStarting - Starting PersonControllerTest using Java 17.0.7 with PID 9796 (started by Алексей in C:\Users\Алексей\IdeaProjects\servlet-app-67)
+04-10-2023 21:27:23.218 [main] INFO  c.t.controller.PersonControllerTest.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+04-10-2023 21:27:25.024 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
+04-10-2023 21:27:25.025 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
+04-10-2023 21:27:25.026 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 1 ms
+04-10-2023 21:27:25.044 [main] INFO  c.t.controller.PersonControllerTest.logStarted - Started PersonControllerTest in 2.131 seconds (process running for 2.978)

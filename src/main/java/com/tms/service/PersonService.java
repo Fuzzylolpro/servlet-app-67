@@ -46,8 +46,8 @@ public class PersonService {
         return false;
     }
 
-    public Boolean deleteUserById(Long id){
-        return personRepository.deleteById(id);
+    public void deleteUserById(Long id){
+         personRepository.deleteById(id);
     }
 
 
