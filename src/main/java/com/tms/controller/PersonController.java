@@ -66,6 +66,7 @@ public class PersonController {
     @DeleteMapping("/{id}")
 
     public ResponseEntity<HttpStatus> delete(@Parameter(description = "Это id persona который хотим удалять") @PathVariable("id") Long id){
+       personService.deleteUserById(id);
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }
 

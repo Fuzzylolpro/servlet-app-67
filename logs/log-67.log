@@ -1,53 +1,706 @@
-04-10-2023 20:00:53.455 [main] INFO  com.tms.MyFirstTest.logStarting - Starting MyFirstTest using Java 17.0.7 with PID 10636 (started by Алексей in C:\Users\Алексей\IdeaProjects\servlet-app-67)
-04-10-2023 20:00:53.460 [main] INFO  com.tms.MyFirstTest.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
-04-10-2023 20:00:56.076 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 4 endpoint(s) beneath base path '/actuator'
-04-10-2023 20:00:56.121 [main] INFO  com.tms.MyFirstTest.logStarted - Started MyFirstTest in 2.928 seconds (process running for 3.813)
-04-10-2023 20:01:41.498 [main] INFO  com.tms.MyFirstTest.logStarting - Starting MyFirstTest using Java 17.0.7 with PID 12764 (started by Алексей in C:\Users\Алексей\IdeaProjects\servlet-app-67)
-04-10-2023 20:01:41.506 [main] INFO  com.tms.MyFirstTest.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
-04-10-2023 20:01:44.010 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 4 endpoint(s) beneath base path '/actuator'
-04-10-2023 20:01:44.054 [main] INFO  com.tms.MyFirstTest.logStarted - Started MyFirstTest in 2.802 seconds (process running for 3.68)
-04-10-2023 20:03:20.343 [main] INFO  com.tms.MyFirstTest.logStarting - Starting MyFirstTest using Java 17.0.7 with PID 11804 (started by Алексей in C:\Users\Алексей\IdeaProjects\servlet-app-67)
-04-10-2023 20:03:20.344 [main] INFO  com.tms.MyFirstTest.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
-04-10-2023 20:03:22.835 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 4 endpoint(s) beneath base path '/actuator'
-04-10-2023 20:03:22.884 [main] INFO  com.tms.MyFirstTest.logStarted - Started MyFirstTest in 2.794 seconds (process running for 3.621)
-04-10-2023 20:50:44.692 [main] INFO  c.t.controller.PersonControllerTest.logStarting - Starting PersonControllerTest using Java 17.0.7 with PID 3292 (started by Алексей in C:\Users\Алексей\IdeaProjects\servlet-app-67)
-04-10-2023 20:50:44.694 [main] INFO  c.t.controller.PersonControllerTest.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
-04-10-2023 20:50:46.507 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
-04-10-2023 20:50:46.508 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
-04-10-2023 20:50:46.509 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 1 ms
-04-10-2023 20:50:46.527 [main] INFO  c.t.controller.PersonControllerTest.logStarted - Started PersonControllerTest in 2.148 seconds (process running for 3.037)
-04-10-2023 20:50:46.599 [main] INFO  com.tms.controller.PersonController.getAll - Метод работает
-04-10-2023 20:51:13.536 [main] INFO  c.t.controller.PersonControllerTest.logStarting - Starting PersonControllerTest using Java 17.0.7 with PID 1380 (started by Алексей in C:\Users\Алексей\IdeaProjects\servlet-app-67)
-04-10-2023 20:51:13.538 [main] INFO  c.t.controller.PersonControllerTest.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
-04-10-2023 20:51:15.191 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
-04-10-2023 20:51:15.191 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
-04-10-2023 20:51:15.193 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 1 ms
-04-10-2023 20:51:15.210 [main] INFO  c.t.controller.PersonControllerTest.logStarted - Started PersonControllerTest in 1.992 seconds (process running for 2.823)
-04-10-2023 20:51:15.284 [main] INFO  com.tms.controller.PersonController.getAll - Метод работает
-04-10-2023 20:53:41.213 [main] INFO  c.t.controller.PersonControllerTest.logStarting - Starting PersonControllerTest using Java 17.0.7 with PID 16044 (started by Алексей in C:\Users\Алексей\IdeaProjects\servlet-app-67)
-04-10-2023 20:53:41.214 [main] INFO  c.t.controller.PersonControllerTest.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
-04-10-2023 20:53:42.992 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
-04-10-2023 20:53:42.993 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
-04-10-2023 20:53:42.994 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 1 ms
-04-10-2023 20:53:43.012 [main] INFO  c.t.controller.PersonControllerTest.logStarted - Started PersonControllerTest in 2.113 seconds (process running for 2.95)
-04-10-2023 20:53:43.084 [main] INFO  com.tms.controller.PersonController.getAll - Метод работает
-04-10-2023 21:19:02.239 [main] INFO  c.t.controller.PersonControllerTest.logStarting - Starting PersonControllerTest using Java 17.0.7 with PID 5396 (started by Алексей in C:\Users\Алексей\IdeaProjects\servlet-app-67)
-04-10-2023 21:19:02.241 [main] INFO  c.t.controller.PersonControllerTest.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
-04-10-2023 21:19:03.926 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
-04-10-2023 21:19:03.927 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
-04-10-2023 21:19:03.928 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 1 ms
-04-10-2023 21:19:03.946 [main] INFO  c.t.controller.PersonControllerTest.logStarted - Started PersonControllerTest in 2.014 seconds (process running for 2.858)
-04-10-2023 21:19:04.015 [main] INFO  com.tms.controller.PersonController.getAll - Метод работает
-04-10-2023 21:19:27.590 [main] INFO  c.t.controller.PersonControllerTest.logStarting - Starting PersonControllerTest using Java 17.0.7 with PID 16944 (started by Алексей in C:\Users\Алексей\IdeaProjects\servlet-app-67)
-04-10-2023 21:19:27.592 [main] INFO  c.t.controller.PersonControllerTest.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
-04-10-2023 21:19:29.308 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
-04-10-2023 21:19:29.309 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
-04-10-2023 21:19:29.310 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 1 ms
-04-10-2023 21:19:29.329 [main] INFO  c.t.controller.PersonControllerTest.logStarted - Started PersonControllerTest in 2.04 seconds (process running for 2.895)
-04-10-2023 21:19:29.529 [main] INFO  com.tms.controller.PersonController.getAll - Метод работает
-04-10-2023 21:27:23.216 [main] INFO  c.t.controller.PersonControllerTest.logStarting - Starting PersonControllerTest using Java 17.0.7 with PID 9796 (started by Алексей in C:\Users\Алексей\IdeaProjects\servlet-app-67)
-04-10-2023 21:27:23.218 [main] INFO  c.t.controller.PersonControllerTest.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
-04-10-2023 21:27:25.024 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext.log - Initializing Spring TestDispatcherServlet ''
-04-10-2023 21:27:25.025 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Initializing Servlet ''
-04-10-2023 21:27:25.026 [main] INFO  o.s.t.w.s.TestDispatcherServlet.initServletBean - Completed initialization in 1 ms
-04-10-2023 21:27:25.044 [main] INFO  c.t.controller.PersonControllerTest.logStarted - Started PersonControllerTest in 2.131 seconds (process running for 2.978)
+09-10-2023 20:33:57.280 [main] INFO  com.tms.Main.logStarting - Starting Main using Java 17.0.7 with PID 13440 (C:\Users\Алексей\IdeaProjects\servlet-app-67\target\classes started by Алексей in C:\Users\Алексей\IdeaProjects\servlet-app-67)
+09-10-2023 20:33:57.290 [main] INFO  com.tms.Main.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+09-10-2023 20:33:58.968 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+09-10-2023 20:33:58.977 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+09-10-2023 20:33:58.978 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.12]
+09-10-2023 20:33:59.222 [main] INFO  o.apache.jasper.servlet.TldScanner.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-10-2023 20:33:59.227 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+09-10-2023 20:33:59.227 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1873 ms
+09-10-2023 20:33:59.581 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+09-10-2023 20:33:59.635 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.2.1.Final
+09-10-2023 20:33:59.638 [main] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000406: Using bytecode reflection optimizer
+09-10-2023 20:33:59.922 [main] WARN  o.hibernate.orm.connections.pooling.configure - HHH10001002: Using built-in connection pool (not intended for production use)
+09-10-2023 20:33:59.929 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+09-10-2023 20:33:59.930 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/group-67-database]
+09-10-2023 20:33:59.930 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001001: Connection properties: {password=****, user=postgres}
+09-10-2023 20:33:59.931 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001003: Autocommit mode: false
+09-10-2023 20:33:59.935 [main] INFO  o.hibernate.orm.connections.pooling.<init> - HHH10001115: Connection pool size: 20 (min=1)
+09-10-2023 20:34:00.176 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@56f84c9b
+09-10-2023 20:34:00.377 [main] INFO  o.h.b.i.BytecodeProviderInitiator.buildBytecodeProvider - HHH000021: Bytecode provider name : bytebuddy
+09-10-2023 20:34:01.051 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09-10-2023 20:34:02.598 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 4 endpoint(s) beneath base path '/actuator'
+09-10-2023 20:34:02.675 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+09-10-2023 20:34:02.688 [main] INFO  com.tms.Main.logStarted - Started Main in 5.918 seconds (process running for 6.84)
+09-10-2023 20:34:03.060 [RMI TCP Connection(2)-192.168.1.70] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09-10-2023 20:34:03.060 [RMI TCP Connection(2)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+09-10-2023 20:34:03.061 [RMI TCP Connection(2)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
+09-10-2023 20:35:03.976 [http-nio-8080-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet].log - Servlet.service() for servlet [dispatcherServlet] threw exception
+jakarta.servlet.ServletException: Circular view path [jspPage]: would dispatch back to the current handler URL [/person/jspPage] again. Check your ViewResolver setup! (Hint: This may be the result of an unspecified view, due to default view name generation.)
+	at org.springframework.web.servlet.view.InternalResourceView.prepareForRendering(InternalResourceView.java:210)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:148)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:314)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1415)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1159)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1098)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:642)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:408)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:340)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:277)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:171)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:314)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1415)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1159)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1098)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+09-10-2023 20:35:03.983 [http-nio-8080-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet].log - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Circular view path [jspPage]: would dispatch back to the current handler URL [/person/jspPage] again. Check your ViewResolver setup! (Hint: This may be the result of an unspecified view, due to default view name generation.)] with root cause
+jakarta.servlet.ServletException: Circular view path [jspPage]: would dispatch back to the current handler URL [/person/jspPage] again. Check your ViewResolver setup! (Hint: This may be the result of an unspecified view, due to default view name generation.)
+	at org.springframework.web.servlet.view.InternalResourceView.prepareForRendering(InternalResourceView.java:210)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:148)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:314)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1415)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1159)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1098)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:642)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:408)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:340)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:277)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:171)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:314)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1415)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1159)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1098)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+09-10-2023 20:38:16.982 [http-nio-8080-exec-8] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet].log - Servlet.service() for servlet [dispatcherServlet] threw exception
+jakarta.servlet.ServletException: Circular view path [jspPage]: would dispatch back to the current handler URL [/person/jspPage] again. Check your ViewResolver setup! (Hint: This may be the result of an unspecified view, due to default view name generation.)
+	at org.springframework.web.servlet.view.InternalResourceView.prepareForRendering(InternalResourceView.java:210)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:148)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:314)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1415)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1159)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1098)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:642)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:408)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:340)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:277)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:171)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:314)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1415)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1159)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1098)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+09-10-2023 20:38:16.984 [http-nio-8080-exec-8] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet].log - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Circular view path [jspPage]: would dispatch back to the current handler URL [/person/jspPage] again. Check your ViewResolver setup! (Hint: This may be the result of an unspecified view, due to default view name generation.)] with root cause
+jakarta.servlet.ServletException: Circular view path [jspPage]: would dispatch back to the current handler URL [/person/jspPage] again. Check your ViewResolver setup! (Hint: This may be the result of an unspecified view, due to default view name generation.)
+	at org.springframework.web.servlet.view.InternalResourceView.prepareForRendering(InternalResourceView.java:210)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:148)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:314)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1415)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1159)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1098)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:642)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:408)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:340)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:277)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:171)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:314)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1415)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1159)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1098)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+09-10-2023 20:42:06.353 [SpringApplicationShutdownHook] INFO  o.hibernate.orm.connections.pooling.stop - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/group-67-database]
+09-10-2023 20:42:12.379 [main] INFO  com.tms.Main.logStarting - Starting Main using Java 17.0.7 with PID 10300 (C:\Users\Алексей\IdeaProjects\servlet-app-67\target\classes started by Алексей in C:\Users\Алексей\IdeaProjects\servlet-app-67)
+09-10-2023 20:42:12.382 [main] INFO  com.tms.Main.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+09-10-2023 20:42:14.307 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+09-10-2023 20:42:14.317 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+09-10-2023 20:42:14.317 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.12]
+09-10-2023 20:42:14.554 [main] INFO  o.apache.jasper.servlet.TldScanner.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-10-2023 20:42:14.560 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+09-10-2023 20:42:14.561 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2119 ms
+09-10-2023 20:42:14.961 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+09-10-2023 20:42:15.016 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.2.1.Final
+09-10-2023 20:42:15.019 [main] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000406: Using bytecode reflection optimizer
+09-10-2023 20:42:15.274 [main] WARN  o.hibernate.orm.connections.pooling.configure - HHH10001002: Using built-in connection pool (not intended for production use)
+09-10-2023 20:42:15.278 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+09-10-2023 20:42:15.278 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/group-67-database]
+09-10-2023 20:42:15.279 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001001: Connection properties: {password=****, user=postgres}
+09-10-2023 20:42:15.279 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001003: Autocommit mode: false
+09-10-2023 20:42:15.281 [main] INFO  o.hibernate.orm.connections.pooling.<init> - HHH10001115: Connection pool size: 20 (min=1)
+09-10-2023 20:42:15.478 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@13d1f898
+09-10-2023 20:42:15.666 [main] INFO  o.h.b.i.BytecodeProviderInitiator.buildBytecodeProvider - HHH000021: Bytecode provider name : bytebuddy
+09-10-2023 20:42:16.416 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09-10-2023 20:42:18.147 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 4 endpoint(s) beneath base path '/actuator'
+09-10-2023 20:42:18.229 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+09-10-2023 20:42:18.244 [main] INFO  com.tms.Main.logStarted - Started Main in 6.34 seconds (process running for 7.159)
+09-10-2023 20:42:18.398 [RMI TCP Connection(5)-192.168.1.70] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09-10-2023 20:42:18.399 [RMI TCP Connection(5)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+09-10-2023 20:42:18.400 [RMI TCP Connection(5)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
+09-10-2023 20:42:37.374 [SpringApplicationShutdownHook] INFO  o.hibernate.orm.connections.pooling.stop - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/group-67-database]
+09-10-2023 20:42:41.811 [main] INFO  com.tms.Main.logStarting - Starting Main using Java 17.0.7 with PID 17156 (C:\Users\Алексей\IdeaProjects\servlet-app-67\target\classes started by Алексей in C:\Users\Алексей\IdeaProjects\servlet-app-67)
+09-10-2023 20:42:41.814 [main] INFO  com.tms.Main.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+09-10-2023 20:42:43.512 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+09-10-2023 20:42:43.522 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+09-10-2023 20:42:43.522 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.12]
+09-10-2023 20:42:43.766 [main] INFO  o.apache.jasper.servlet.TldScanner.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-10-2023 20:42:43.772 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+09-10-2023 20:42:43.772 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1897 ms
+09-10-2023 20:42:44.144 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+09-10-2023 20:42:44.199 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.2.1.Final
+09-10-2023 20:42:44.202 [main] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000406: Using bytecode reflection optimizer
+09-10-2023 20:42:44.461 [main] WARN  o.hibernate.orm.connections.pooling.configure - HHH10001002: Using built-in connection pool (not intended for production use)
+09-10-2023 20:42:44.467 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+09-10-2023 20:42:44.467 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/group-67-database]
+09-10-2023 20:42:44.467 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001001: Connection properties: {password=****, user=postgres}
+09-10-2023 20:42:44.468 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001003: Autocommit mode: false
+09-10-2023 20:42:44.470 [main] INFO  o.hibernate.orm.connections.pooling.<init> - HHH10001115: Connection pool size: 20 (min=1)
+09-10-2023 20:42:44.695 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@6e4e60f5
+09-10-2023 20:42:44.927 [main] INFO  o.h.b.i.BytecodeProviderInitiator.buildBytecodeProvider - HHH000021: Bytecode provider name : bytebuddy
+09-10-2023 20:42:45.818 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09-10-2023 20:42:47.717 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 4 endpoint(s) beneath base path '/actuator'
+09-10-2023 20:42:47.809 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+09-10-2023 20:42:47.821 [main] INFO  com.tms.Main.logStarted - Started Main in 6.498 seconds (process running for 7.305)
+09-10-2023 20:42:48.353 [RMI TCP Connection(4)-192.168.1.70] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09-10-2023 20:42:48.353 [RMI TCP Connection(4)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+09-10-2023 20:42:48.354 [RMI TCP Connection(4)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
+09-10-2023 20:42:50.765 [http-nio-8080-exec-1] WARN  c.t.e.ExceptionResolver.exceptionHandlerMethod - java.lang.NullPointerException
+09-10-2023 21:08:24.144 [SpringApplicationShutdownHook] INFO  o.hibernate.orm.connections.pooling.stop - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/group-67-database]
+09-10-2023 21:08:28.871 [main] INFO  com.tms.Main.logStarting - Starting Main using Java 17.0.7 with PID 12896 (C:\Users\Алексей\IdeaProjects\servlet-app-67\target\classes started by Алексей in C:\Users\Алексей\IdeaProjects\servlet-app-67)
+09-10-2023 21:08:28.874 [main] INFO  com.tms.Main.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+09-10-2023 21:08:30.569 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+09-10-2023 21:08:30.579 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+09-10-2023 21:08:30.580 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.12]
+09-10-2023 21:08:30.809 [main] INFO  o.apache.jasper.servlet.TldScanner.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-10-2023 21:08:30.815 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+09-10-2023 21:08:30.816 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1884 ms
+09-10-2023 21:08:31.167 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+09-10-2023 21:08:31.232 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.2.1.Final
+09-10-2023 21:08:31.235 [main] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000406: Using bytecode reflection optimizer
+09-10-2023 21:08:31.491 [main] WARN  o.hibernate.orm.connections.pooling.configure - HHH10001002: Using built-in connection pool (not intended for production use)
+09-10-2023 21:08:31.496 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+09-10-2023 21:08:31.497 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/group-67-database]
+09-10-2023 21:08:31.498 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001001: Connection properties: {password=****, user=postgres}
+09-10-2023 21:08:31.498 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001003: Autocommit mode: false
+09-10-2023 21:08:31.502 [main] INFO  o.hibernate.orm.connections.pooling.<init> - HHH10001115: Connection pool size: 20 (min=1)
+09-10-2023 21:08:31.744 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@464a3430
+09-10-2023 21:08:31.992 [main] INFO  o.h.b.i.BytecodeProviderInitiator.buildBytecodeProvider - HHH000021: Bytecode provider name : bytebuddy
+09-10-2023 21:08:32.931 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09-10-2023 21:08:34.972 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 4 endpoint(s) beneath base path '/actuator'
+09-10-2023 21:08:35.049 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+09-10-2023 21:08:35.061 [main] INFO  com.tms.Main.logStarted - Started Main in 6.674 seconds (process running for 7.467)
+09-10-2023 21:08:35.357 [RMI TCP Connection(2)-192.168.1.70] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09-10-2023 21:08:35.357 [RMI TCP Connection(2)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+09-10-2023 21:08:35.364 [RMI TCP Connection(2)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 6 ms
+09-10-2023 21:10:08.795 [http-nio-8080-exec-3] WARN  com.tms.repository.PersonRepository.create - We have problem with creation person:Person(id=null, firstName=Elon, secondName=Mask, age=45, isMarried=true, created=null, role=USER). The ex:org.hibernate.id.IdentifierGenerationException: ids for this class must be manually assigned before calling save(): com.tms.domain.Person
+09-10-2023 21:19:13.428 [SpringApplicationShutdownHook] INFO  o.hibernate.orm.connections.pooling.stop - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/group-67-database]
+09-10-2023 21:19:18.198 [main] INFO  com.tms.Main.logStarting - Starting Main using Java 17.0.7 with PID 11892 (C:\Users\Алексей\IdeaProjects\servlet-app-67\target\classes started by Алексей in C:\Users\Алексей\IdeaProjects\servlet-app-67)
+09-10-2023 21:19:18.201 [main] INFO  com.tms.Main.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+09-10-2023 21:19:19.892 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+09-10-2023 21:19:19.901 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+09-10-2023 21:19:19.902 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.12]
+09-10-2023 21:19:20.146 [main] INFO  o.apache.jasper.servlet.TldScanner.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-10-2023 21:19:20.152 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+09-10-2023 21:19:20.152 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1891 ms
+09-10-2023 21:19:20.515 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+09-10-2023 21:19:20.573 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.2.1.Final
+09-10-2023 21:19:20.576 [main] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000406: Using bytecode reflection optimizer
+09-10-2023 21:19:20.830 [main] WARN  o.hibernate.orm.connections.pooling.configure - HHH10001002: Using built-in connection pool (not intended for production use)
+09-10-2023 21:19:20.834 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+09-10-2023 21:19:20.835 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/group-67-database]
+09-10-2023 21:19:20.835 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001001: Connection properties: {password=****, user=postgres}
+09-10-2023 21:19:20.836 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001003: Autocommit mode: false
+09-10-2023 21:19:20.838 [main] INFO  o.hibernate.orm.connections.pooling.<init> - HHH10001115: Connection pool size: 20 (min=1)
+09-10-2023 21:19:21.070 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@464a3430
+09-10-2023 21:19:21.306 [main] INFO  o.h.b.i.BytecodeProviderInitiator.buildBytecodeProvider - HHH000021: Bytecode provider name : bytebuddy
+09-10-2023 21:19:22.190 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09-10-2023 21:19:24.192 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 4 endpoint(s) beneath base path '/actuator'
+09-10-2023 21:19:24.267 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+09-10-2023 21:19:24.279 [main] INFO  com.tms.Main.logStarted - Started Main in 6.584 seconds (process running for 7.376)
+09-10-2023 21:19:24.719 [RMI TCP Connection(1)-192.168.1.70] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09-10-2023 21:19:24.720 [RMI TCP Connection(1)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+09-10-2023 21:19:24.722 [RMI TCP Connection(1)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 2 ms
+09-10-2023 21:19:34.020 [http-nio-8080-exec-2] WARN  o.h.e.jdbc.spi.SqlExceptionHelper.logExceptions - SQL Error: 0, SQLState: 23502
+09-10-2023 21:19:34.021 [http-nio-8080-exec-2] ERROR o.h.e.jdbc.spi.SqlExceptionHelper.logExceptions - ОШИБКА: значение NULL в столбце "created" отношения "person" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (22, Elon, Mask, 45, t, null, USER).
+09-10-2023 21:19:34.037 [http-nio-8080-exec-2] WARN  com.tms.repository.PersonRepository.create - We have problem with creation person:Person(id=22, firstName=Elon, secondName=Mask, age=45, isMarried=true, created=null, role=USER). The ex:jakarta.persistence.RollbackException: Error while committing the transaction
+09-10-2023 21:21:54.495 [SpringApplicationShutdownHook] INFO  o.hibernate.orm.connections.pooling.stop - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/group-67-database]
+09-10-2023 21:21:57.680 [main] INFO  com.tms.Main.logStarting - Starting Main using Java 17.0.7 with PID 14204 (C:\Users\Алексей\IdeaProjects\servlet-app-67\target\classes started by Алексей in C:\Users\Алексей\IdeaProjects\servlet-app-67)
+09-10-2023 21:21:57.683 [main] INFO  com.tms.Main.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+09-10-2023 21:21:59.389 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+09-10-2023 21:21:59.399 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+09-10-2023 21:21:59.399 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.12]
+09-10-2023 21:21:59.642 [main] INFO  o.apache.jasper.servlet.TldScanner.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-10-2023 21:21:59.647 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+09-10-2023 21:21:59.648 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1905 ms
+09-10-2023 21:21:59.993 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+09-10-2023 21:22:00.050 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.2.1.Final
+09-10-2023 21:22:00.052 [main] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000406: Using bytecode reflection optimizer
+09-10-2023 21:22:00.318 [main] WARN  o.hibernate.orm.connections.pooling.configure - HHH10001002: Using built-in connection pool (not intended for production use)
+09-10-2023 21:22:00.322 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+09-10-2023 21:22:00.322 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/group-67-database]
+09-10-2023 21:22:00.323 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001001: Connection properties: {password=****, user=postgres}
+09-10-2023 21:22:00.323 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001003: Autocommit mode: false
+09-10-2023 21:22:00.326 [main] INFO  o.hibernate.orm.connections.pooling.<init> - HHH10001115: Connection pool size: 20 (min=1)
+09-10-2023 21:22:00.551 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@3bcedb06
+09-10-2023 21:22:00.791 [main] INFO  o.h.b.i.BytecodeProviderInitiator.buildBytecodeProvider - HHH000021: Bytecode provider name : bytebuddy
+09-10-2023 21:22:01.677 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09-10-2023 21:22:03.785 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 4 endpoint(s) beneath base path '/actuator'
+09-10-2023 21:22:03.885 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+09-10-2023 21:22:03.902 [main] INFO  com.tms.Main.logStarted - Started Main in 6.715 seconds (process running for 7.643)
+09-10-2023 21:22:04.315 [RMI TCP Connection(1)-192.168.1.70] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09-10-2023 21:22:04.316 [RMI TCP Connection(1)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+09-10-2023 21:22:04.319 [RMI TCP Connection(1)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 2 ms
+09-10-2023 21:24:35.186 [SpringApplicationShutdownHook] INFO  o.hibernate.orm.connections.pooling.stop - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/group-67-database]
+09-10-2023 21:24:39.626 [main] INFO  com.tms.Main.logStarting - Starting Main using Java 17.0.7 with PID 8256 (C:\Users\Алексей\IdeaProjects\servlet-app-67\target\classes started by Алексей in C:\Users\Алексей\IdeaProjects\servlet-app-67)
+09-10-2023 21:24:39.629 [main] INFO  com.tms.Main.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+09-10-2023 21:24:41.279 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+09-10-2023 21:24:41.289 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+09-10-2023 21:24:41.290 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.12]
+09-10-2023 21:24:41.522 [main] INFO  o.apache.jasper.servlet.TldScanner.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-10-2023 21:24:41.527 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+09-10-2023 21:24:41.528 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1841 ms
+09-10-2023 21:24:41.861 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+09-10-2023 21:24:41.917 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.2.1.Final
+09-10-2023 21:24:41.920 [main] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000406: Using bytecode reflection optimizer
+09-10-2023 21:24:42.173 [main] WARN  o.hibernate.orm.connections.pooling.configure - HHH10001002: Using built-in connection pool (not intended for production use)
+09-10-2023 21:24:42.178 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+09-10-2023 21:24:42.178 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/group-67-database]
+09-10-2023 21:24:42.179 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001001: Connection properties: {password=****, user=postgres}
+09-10-2023 21:24:42.179 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001003: Autocommit mode: false
+09-10-2023 21:24:42.182 [main] INFO  o.hibernate.orm.connections.pooling.<init> - HHH10001115: Connection pool size: 20 (min=1)
+09-10-2023 21:24:42.408 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@464a3430
+09-10-2023 21:24:42.636 [main] INFO  o.h.b.i.BytecodeProviderInitiator.buildBytecodeProvider - HHH000021: Bytecode provider name : bytebuddy
+09-10-2023 21:24:43.416 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09-10-2023 21:24:45.060 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 4 endpoint(s) beneath base path '/actuator'
+09-10-2023 21:24:45.149 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+09-10-2023 21:24:45.161 [main] INFO  com.tms.Main.logStarted - Started Main in 6.019 seconds (process running for 6.8)
+09-10-2023 21:24:45.656 [RMI TCP Connection(2)-192.168.1.70] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09-10-2023 21:24:45.656 [RMI TCP Connection(2)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+09-10-2023 21:24:45.657 [RMI TCP Connection(2)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
+09-10-2023 21:35:12.186 [http-nio-8080-exec-9] INFO  com.tms.controller.PersonController.getAll - Метод работает
+09-10-2023 21:35:17.375 [http-nio-8080-exec-10] INFO  com.tms.controller.PersonController.getAll - Метод работает
+09-10-2023 21:37:40.206 [SpringApplicationShutdownHook] INFO  o.hibernate.orm.connections.pooling.stop - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/group-67-database]
+09-10-2023 21:37:45.493 [main] INFO  com.tms.Main.logStarting - Starting Main using Java 17.0.7 with PID 16876 (C:\Users\Алексей\IdeaProjects\servlet-app-67\target\classes started by Алексей in C:\Users\Алексей\IdeaProjects\servlet-app-67)
+09-10-2023 21:37:45.497 [main] INFO  com.tms.Main.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+09-10-2023 21:37:47.444 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+09-10-2023 21:37:47.455 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+09-10-2023 21:37:47.456 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.12]
+09-10-2023 21:37:47.726 [main] INFO  o.apache.jasper.servlet.TldScanner.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-10-2023 21:37:47.732 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+09-10-2023 21:37:47.733 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2164 ms
+09-10-2023 21:37:48.178 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+09-10-2023 21:37:48.245 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.2.1.Final
+09-10-2023 21:37:48.249 [main] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000406: Using bytecode reflection optimizer
+09-10-2023 21:37:48.540 [main] WARN  o.hibernate.orm.connections.pooling.configure - HHH10001002: Using built-in connection pool (not intended for production use)
+09-10-2023 21:37:48.544 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+09-10-2023 21:37:48.545 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/group-67-database]
+09-10-2023 21:37:48.545 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001001: Connection properties: {password=****, user=postgres}
+09-10-2023 21:37:48.546 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001003: Autocommit mode: false
+09-10-2023 21:37:48.549 [main] INFO  o.hibernate.orm.connections.pooling.<init> - HHH10001115: Connection pool size: 20 (min=1)
+09-10-2023 21:37:48.813 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@56a09a5c
+09-10-2023 21:37:49.054 [main] INFO  o.h.b.i.BytecodeProviderInitiator.buildBytecodeProvider - HHH000021: Bytecode provider name : bytebuddy
+09-10-2023 21:37:49.838 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09-10-2023 21:37:51.555 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 4 endpoint(s) beneath base path '/actuator'
+09-10-2023 21:37:51.641 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+09-10-2023 21:37:51.654 [main] INFO  com.tms.Main.logStarted - Started Main in 6.704 seconds (process running for 7.984)
+09-10-2023 21:37:51.865 [RMI TCP Connection(1)-192.168.1.70] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09-10-2023 21:37:51.866 [RMI TCP Connection(1)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+09-10-2023 21:37:51.867 [RMI TCP Connection(1)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
+09-10-2023 21:41:49.449 [SpringApplicationShutdownHook] INFO  o.hibernate.orm.connections.pooling.stop - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/group-67-database]
+09-10-2023 21:41:54.135 [main] INFO  com.tms.Main.logStarting - Starting Main using Java 17.0.7 with PID 16184 (C:\Users\Алексей\IdeaProjects\servlet-app-67\target\classes started by Алексей in C:\Users\Алексей\IdeaProjects\servlet-app-67)
+09-10-2023 21:41:54.138 [main] INFO  com.tms.Main.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+09-10-2023 21:41:55.854 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+09-10-2023 21:41:55.865 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+09-10-2023 21:41:55.866 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.12]
+09-10-2023 21:41:56.128 [main] INFO  o.apache.jasper.servlet.TldScanner.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-10-2023 21:41:56.134 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+09-10-2023 21:41:56.134 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1932 ms
+09-10-2023 21:41:56.498 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+09-10-2023 21:41:56.553 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.2.1.Final
+09-10-2023 21:41:56.555 [main] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000406: Using bytecode reflection optimizer
+09-10-2023 21:41:56.813 [main] WARN  o.hibernate.orm.connections.pooling.configure - HHH10001002: Using built-in connection pool (not intended for production use)
+09-10-2023 21:41:56.818 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+09-10-2023 21:41:56.818 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/group-67-database]
+09-10-2023 21:41:56.819 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001001: Connection properties: {password=****, user=postgres}
+09-10-2023 21:41:56.819 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001003: Autocommit mode: false
+09-10-2023 21:41:56.822 [main] INFO  o.hibernate.orm.connections.pooling.<init> - HHH10001115: Connection pool size: 20 (min=1)
+09-10-2023 21:41:57.074 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@464a3430
+09-10-2023 21:41:57.308 [main] INFO  o.h.b.i.BytecodeProviderInitiator.buildBytecodeProvider - HHH000021: Bytecode provider name : bytebuddy
+09-10-2023 21:41:58.198 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09-10-2023 21:42:00.162 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 4 endpoint(s) beneath base path '/actuator'
+09-10-2023 21:42:00.257 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+09-10-2023 21:42:00.270 [main] INFO  com.tms.Main.logStarted - Started Main in 6.626 seconds (process running for 7.39)
+09-10-2023 21:42:00.668 [RMI TCP Connection(2)-192.168.1.70] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09-10-2023 21:42:00.668 [RMI TCP Connection(2)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+09-10-2023 21:42:00.670 [RMI TCP Connection(2)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
+09-10-2023 21:43:46.750 [SpringApplicationShutdownHook] INFO  o.hibernate.orm.connections.pooling.stop - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/group-67-database]
+09-10-2023 21:43:52.071 [main] INFO  com.tms.Main.logStarting - Starting Main using Java 17.0.7 with PID 13836 (C:\Users\Алексей\IdeaProjects\servlet-app-67\target\classes started by Алексей in C:\Users\Алексей\IdeaProjects\servlet-app-67)
+09-10-2023 21:43:52.074 [main] INFO  com.tms.Main.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+09-10-2023 21:43:53.744 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+09-10-2023 21:43:53.753 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+09-10-2023 21:43:53.754 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.12]
+09-10-2023 21:43:53.995 [main] INFO  o.apache.jasper.servlet.TldScanner.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-10-2023 21:43:54.000 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+09-10-2023 21:43:54.001 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1865 ms
+09-10-2023 21:43:54.354 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+09-10-2023 21:43:54.410 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.2.1.Final
+09-10-2023 21:43:54.412 [main] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000406: Using bytecode reflection optimizer
+09-10-2023 21:43:54.663 [main] WARN  o.hibernate.orm.connections.pooling.configure - HHH10001002: Using built-in connection pool (not intended for production use)
+09-10-2023 21:43:54.667 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+09-10-2023 21:43:54.667 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/group-67-database]
+09-10-2023 21:43:54.667 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001001: Connection properties: {password=****, user=postgres}
+09-10-2023 21:43:54.668 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001003: Autocommit mode: false
+09-10-2023 21:43:54.671 [main] INFO  o.hibernate.orm.connections.pooling.<init> - HHH10001115: Connection pool size: 20 (min=1)
+09-10-2023 21:43:54.891 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@3bcedb06
+09-10-2023 21:43:55.125 [main] INFO  o.h.b.i.BytecodeProviderInitiator.buildBytecodeProvider - HHH000021: Bytecode provider name : bytebuddy
+09-10-2023 21:43:56.017 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09-10-2023 21:43:58.090 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 4 endpoint(s) beneath base path '/actuator'
+09-10-2023 21:43:58.171 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+09-10-2023 21:43:58.184 [main] INFO  com.tms.Main.logStarted - Started Main in 6.649 seconds (process running for 7.539)
+09-10-2023 21:43:58.441 [RMI TCP Connection(2)-192.168.1.70] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09-10-2023 21:43:58.441 [RMI TCP Connection(2)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+09-10-2023 21:43:58.443 [RMI TCP Connection(2)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
+09-10-2023 21:44:15.677 [SpringApplicationShutdownHook] INFO  o.hibernate.orm.connections.pooling.stop - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/group-67-database]
+09-10-2023 21:44:18.405 [main] INFO  com.tms.Main.logStarting - Starting Main using Java 17.0.7 with PID 8668 (C:\Users\Алексей\IdeaProjects\servlet-app-67\target\classes started by Алексей in C:\Users\Алексей\IdeaProjects\servlet-app-67)
+09-10-2023 21:44:18.408 [main] INFO  com.tms.Main.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+09-10-2023 21:44:20.103 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+09-10-2023 21:44:20.113 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+09-10-2023 21:44:20.114 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.12]
+09-10-2023 21:44:20.347 [main] INFO  o.apache.jasper.servlet.TldScanner.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-10-2023 21:44:20.352 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+09-10-2023 21:44:20.353 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1885 ms
+09-10-2023 21:44:20.706 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+09-10-2023 21:44:20.764 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.2.1.Final
+09-10-2023 21:44:20.767 [main] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000406: Using bytecode reflection optimizer
+09-10-2023 21:44:21.020 [main] WARN  o.hibernate.orm.connections.pooling.configure - HHH10001002: Using built-in connection pool (not intended for production use)
+09-10-2023 21:44:21.025 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+09-10-2023 21:44:21.025 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/group-67-database]
+09-10-2023 21:44:21.025 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001001: Connection properties: {password=****, user=postgres}
+09-10-2023 21:44:21.026 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001003: Autocommit mode: false
+09-10-2023 21:44:21.030 [main] INFO  o.hibernate.orm.connections.pooling.<init> - HHH10001115: Connection pool size: 20 (min=1)
+09-10-2023 21:44:21.265 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@464a3430
+09-10-2023 21:44:21.501 [main] INFO  o.h.b.i.BytecodeProviderInitiator.buildBytecodeProvider - HHH000021: Bytecode provider name : bytebuddy
+09-10-2023 21:44:22.398 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09-10-2023 21:44:24.533 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 4 endpoint(s) beneath base path '/actuator'
+09-10-2023 21:44:24.634 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+09-10-2023 21:44:24.653 [main] INFO  com.tms.Main.logStarted - Started Main in 6.741 seconds (process running for 7.675)
+09-10-2023 21:44:24.816 [RMI TCP Connection(2)-192.168.1.70] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09-10-2023 21:44:24.817 [RMI TCP Connection(2)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+09-10-2023 21:44:24.818 [RMI TCP Connection(2)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
+09-10-2023 21:45:04.417 [SpringApplicationShutdownHook] INFO  o.hibernate.orm.connections.pooling.stop - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/group-67-database]
+09-10-2023 21:45:07.296 [main] INFO  com.tms.Main.logStarting - Starting Main using Java 17.0.7 with PID 16392 (C:\Users\Алексей\IdeaProjects\servlet-app-67\target\classes started by Алексей in C:\Users\Алексей\IdeaProjects\servlet-app-67)
+09-10-2023 21:45:07.300 [main] INFO  com.tms.Main.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+09-10-2023 21:45:09.160 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+09-10-2023 21:45:09.171 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+09-10-2023 21:45:09.171 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.12]
+09-10-2023 21:45:09.447 [main] INFO  o.apache.jasper.servlet.TldScanner.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-10-2023 21:45:09.454 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+09-10-2023 21:45:09.454 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2091 ms
+09-10-2023 21:45:09.875 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+09-10-2023 21:45:09.943 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.2.1.Final
+09-10-2023 21:45:09.946 [main] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000406: Using bytecode reflection optimizer
+09-10-2023 21:45:10.252 [main] WARN  o.hibernate.orm.connections.pooling.configure - HHH10001002: Using built-in connection pool (not intended for production use)
+09-10-2023 21:45:10.256 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+09-10-2023 21:45:10.257 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/group-67-database]
+09-10-2023 21:45:10.258 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001001: Connection properties: {password=****, user=postgres}
+09-10-2023 21:45:10.258 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001003: Autocommit mode: false
+09-10-2023 21:45:10.261 [main] INFO  o.hibernate.orm.connections.pooling.<init> - HHH10001115: Connection pool size: 20 (min=1)
+09-10-2023 21:45:10.518 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@7404aff2
+09-10-2023 21:45:10.782 [main] INFO  o.h.b.i.BytecodeProviderInitiator.buildBytecodeProvider - HHH000021: Bytecode provider name : bytebuddy
+09-10-2023 21:45:11.837 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09-10-2023 21:45:14.128 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 4 endpoint(s) beneath base path '/actuator'
+09-10-2023 21:45:14.257 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+09-10-2023 21:45:14.276 [main] INFO  com.tms.Main.logStarted - Started Main in 7.547 seconds (process running for 8.64)
+09-10-2023 21:45:14.525 [RMI TCP Connection(2)-192.168.1.70] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09-10-2023 21:45:14.525 [RMI TCP Connection(2)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+09-10-2023 21:45:14.526 [RMI TCP Connection(2)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
+09-10-2023 21:46:09.613 [SpringApplicationShutdownHook] INFO  o.hibernate.orm.connections.pooling.stop - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/group-67-database]
+09-10-2023 21:46:14.309 [main] INFO  com.tms.Main.logStarting - Starting Main using Java 17.0.7 with PID 6196 (C:\Users\Алексей\IdeaProjects\servlet-app-67\target\classes started by Алексей in C:\Users\Алексей\IdeaProjects\servlet-app-67)
+09-10-2023 21:46:14.312 [main] INFO  com.tms.Main.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+09-10-2023 21:46:16.057 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+09-10-2023 21:46:16.068 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+09-10-2023 21:46:16.069 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.12]
+09-10-2023 21:46:16.301 [main] INFO  o.apache.jasper.servlet.TldScanner.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-10-2023 21:46:16.306 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+09-10-2023 21:46:16.307 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1932 ms
+09-10-2023 21:46:16.660 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+09-10-2023 21:46:16.714 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.2.1.Final
+09-10-2023 21:46:16.717 [main] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000406: Using bytecode reflection optimizer
+09-10-2023 21:46:17.000 [main] WARN  o.hibernate.orm.connections.pooling.configure - HHH10001002: Using built-in connection pool (not intended for production use)
+09-10-2023 21:46:17.004 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+09-10-2023 21:46:17.005 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/group-67-database]
+09-10-2023 21:46:17.005 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001001: Connection properties: {password=****, user=postgres}
+09-10-2023 21:46:17.006 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001003: Autocommit mode: false
+09-10-2023 21:46:17.009 [main] INFO  o.hibernate.orm.connections.pooling.<init> - HHH10001115: Connection pool size: 20 (min=1)
+09-10-2023 21:46:17.243 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@6e4e60f5
+09-10-2023 21:46:17.494 [main] INFO  o.h.b.i.BytecodeProviderInitiator.buildBytecodeProvider - HHH000021: Bytecode provider name : bytebuddy
+09-10-2023 21:46:18.385 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09-10-2023 21:46:20.248 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 4 endpoint(s) beneath base path '/actuator'
+09-10-2023 21:46:20.322 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+09-10-2023 21:46:20.334 [main] INFO  com.tms.Main.logStarted - Started Main in 6.553 seconds (process running for 7.397)
+09-10-2023 21:46:20.720 [RMI TCP Connection(4)-192.168.1.70] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09-10-2023 21:46:20.721 [RMI TCP Connection(4)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+09-10-2023 21:46:20.721 [RMI TCP Connection(4)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 0 ms
+09-10-2023 21:52:43.708 [SpringApplicationShutdownHook] INFO  o.hibernate.orm.connections.pooling.stop - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/group-67-database]
+09-10-2023 21:52:48.642 [main] INFO  com.tms.Main.logStarting - Starting Main using Java 17.0.7 with PID 4140 (C:\Users\Алексей\IdeaProjects\servlet-app-67\target\classes started by Алексей in C:\Users\Алексей\IdeaProjects\servlet-app-67)
+09-10-2023 21:52:48.645 [main] INFO  com.tms.Main.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+09-10-2023 21:52:50.309 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+09-10-2023 21:52:50.319 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+09-10-2023 21:52:50.320 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.12]
+09-10-2023 21:52:50.552 [main] INFO  o.apache.jasper.servlet.TldScanner.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-10-2023 21:52:50.557 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+09-10-2023 21:52:50.558 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1856 ms
+09-10-2023 21:52:50.901 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+09-10-2023 21:52:50.954 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.2.1.Final
+09-10-2023 21:52:50.956 [main] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000406: Using bytecode reflection optimizer
+09-10-2023 21:52:51.211 [main] WARN  o.hibernate.orm.connections.pooling.configure - HHH10001002: Using built-in connection pool (not intended for production use)
+09-10-2023 21:52:51.215 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+09-10-2023 21:52:51.215 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/group-67-database]
+09-10-2023 21:52:51.216 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001001: Connection properties: {password=****, user=postgres}
+09-10-2023 21:52:51.216 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001003: Autocommit mode: false
+09-10-2023 21:52:51.219 [main] INFO  o.hibernate.orm.connections.pooling.<init> - HHH10001115: Connection pool size: 20 (min=1)
+09-10-2023 21:52:51.443 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@464a3430
+09-10-2023 21:52:51.680 [main] INFO  o.h.b.i.BytecodeProviderInitiator.buildBytecodeProvider - HHH000021: Bytecode provider name : bytebuddy
+09-10-2023 21:52:52.546 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09-10-2023 21:52:54.512 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 4 endpoint(s) beneath base path '/actuator'
+09-10-2023 21:52:54.588 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+09-10-2023 21:52:54.600 [main] INFO  com.tms.Main.logStarted - Started Main in 6.444 seconds (process running for 7.264)
+09-10-2023 21:52:55.124 [RMI TCP Connection(1)-192.168.1.70] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09-10-2023 21:52:55.125 [RMI TCP Connection(1)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+09-10-2023 21:52:55.126 [RMI TCP Connection(1)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
+09-10-2023 21:53:02.756 [http-nio-8080-exec-1] INFO  com.tms.controller.PersonController.getAll - Метод работает

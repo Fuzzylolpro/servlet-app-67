@@ -1,13 +1,14 @@
 package com.tms.settings;
 
 import com.tms.interseptor.SpringInterceptor;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.EntityManagerFactory;
+import jakarta.persistence.Persistence;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
-import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @Configuration
 @ComponentScan("com.tms")
@@ -22,5 +23,14 @@ public class BeanInitializer implements WebMvcConfigurer {
     public void addInterceptors(InterceptorRegistry registry) {
         registry.addInterceptor(springInterceptor).addPathPatterns("/person/**");
     }
+    @Bean
+    public EntityManagerFactory entityManagerFactory(){
+        return Persistence.createEntityManagerFactory("default");
+    }
+    @Bean
+    public EntityManager entityManager(){
+        return entityManagerFactory().createEntityManager();
+    }
+
 }
 
