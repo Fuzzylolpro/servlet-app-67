@@ -1,6 +1,7 @@
 package com.tms.service;
 
 import com.tms.domain.Person;
+import com.tms.domain.Role;
 import com.tms.repository.PersonRepository;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.stereotype.Service;
@@ -25,18 +26,21 @@ public class PersonService {
 
     public Person getById(HttpServletRequest request) {
         //Logic to find
+
         return new Person();
     }
 
     public Boolean createPerson(Person person) {
         person.setCreated(Timestamp.valueOf(LocalDateTime.now()));
+        person.setRole(Role.USER);
         return personRepository.create(person);
     }
+
     public Boolean updatePerson(Person person) {
         return personRepository.update(person);
     }
 
-    public Optional<Person> getPersonId(long id){
+    public Optional<Person> getPersonId(long id) {
         return personRepository.getPersonById(id);
     }
 
@@ -48,8 +52,8 @@ public class PersonService {
         return false;
     }
 
-    public void deleteUserById(Long id){
-         personRepository.deleteById(id);
+    public void deleteUserById(Long id) {
+        personRepository.deleteById(id);
     }
 
 
