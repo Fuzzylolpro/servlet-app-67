@@ -16,6 +16,9 @@
 
         <mapping class="com.tms.domain.Person"/>
         <mapping class="com.tms.domain.Role"/>
+        <mapping class="com.tms.HiberLesson.Author"/>
+        <mapping class="com.tms.HiberLesson.Book"/>
+        <mapping class="com.tms.HiberLesson.Page"/>
 
     </session-factory>
 </hibernate-configuration>

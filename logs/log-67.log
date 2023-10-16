@@ -1,395 +1,131 @@
-11-10-2023 20:01:24.386 [main] INFO  com.tms.Main.logStarting - Starting Main using Java 17.0.7 with PID 8352 (C:\Users\Алексей\IdeaProjects\servlet-app-67\target\classes started by Алексей in C:\Users\Алексей\IdeaProjects\servlet-app-67)
-11-10-2023 20:01:24.392 [main] INFO  com.tms.Main.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
-11-10-2023 20:01:25.843 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
-11-10-2023 20:01:25.851 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
-11-10-2023 20:01:25.851 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.12]
-11-10-2023 20:01:26.030 [main] INFO  o.apache.jasper.servlet.TldScanner.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-11-10-2023 20:01:26.034 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
-11-10-2023 20:01:26.035 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1584 ms
-11-10-2023 20:01:26.289 [main] INFO  o.h.j.b.i.PersistenceXmlParser.doResolve - HHH000318: Could not find any META-INF/persistence.xml file in the classpath
-11-10-2023 20:01:26.292 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'personController' defined in file [C:\Users\Алексей\IdeaProjects\servlet-app-67\target\classes\com\tms\controller\PersonController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'personService' defined in file [C:\Users\Алексей\IdeaProjects\servlet-app-67\target\classes\com\tms\service\PersonService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'personRepository' defined in file [C:\Users\Алексей\IdeaProjects\servlet-app-67\target\classes\com\tms\repository\PersonRepository.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'entityManager' defined in class path resource [com/tms/settings/BeanInitializer.class]: Failed to instantiate [jakarta.persistence.EntityManager]: Factory method 'entityManager' threw exception with message: Error creating bean with name 'entityManagerFactory' defined in class path resource [com/tms/settings/BeanInitializer.class]: Failed to instantiate [jakarta.persistence.EntityManagerFactory]: Factory method 'entityManagerFactory' threw exception with message: No Persistence provider for EntityManager named default
-11-10-2023 20:01:26.295 [main] INFO  o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
-11-10-2023 20:01:26.315 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger.logMessage - 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-11-10-2023 20:01:26.332 [main] ERROR o.s.boot.SpringApplication.reportFailure - Application run failed
-org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'personController' defined in file [C:\Users\Алексей\IdeaProjects\servlet-app-67\target\classes\com\tms\controller\PersonController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'personService' defined in file [C:\Users\Алексей\IdeaProjects\servlet-app-67\target\classes\com\tms\service\PersonService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'personRepository' defined in file [C:\Users\Алексей\IdeaProjects\servlet-app-67\target\classes\com\tms\repository\PersonRepository.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'entityManager' defined in class path resource [com/tms/settings/BeanInitializer.class]: Failed to instantiate [jakarta.persistence.EntityManager]: Factory method 'entityManager' threw exception with message: Error creating bean with name 'entityManagerFactory' defined in class path resource [com/tms/settings/BeanInitializer.class]: Failed to instantiate [jakarta.persistence.EntityManagerFactory]: Factory method 'entityManagerFactory' threw exception with message: No Persistence provider for EntityManager named default
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
-	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:245)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1352)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1189)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
-	at com.tms.Main.main(Main.java:24)
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'personService' defined in file [C:\Users\Алексей\IdeaProjects\servlet-app-67\target\classes\com\tms\service\PersonService.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'personRepository' defined in file [C:\Users\Алексей\IdeaProjects\servlet-app-67\target\classes\com\tms\repository\PersonRepository.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'entityManager' defined in class path resource [com/tms/settings/BeanInitializer.class]: Failed to instantiate [jakarta.persistence.EntityManager]: Factory method 'entityManager' threw exception with message: Error creating bean with name 'entityManagerFactory' defined in class path resource [com/tms/settings/BeanInitializer.class]: Failed to instantiate [jakarta.persistence.EntityManagerFactory]: Factory method 'entityManagerFactory' threw exception with message: No Persistence provider for EntityManager named default
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
-	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:245)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1352)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1189)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
-	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1417)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
-	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:888)
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
-	... 19 common frames omitted
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'personRepository' defined in file [C:\Users\Алексей\IdeaProjects\servlet-app-67\target\classes\com\tms\repository\PersonRepository.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'entityManager' defined in class path resource [com/tms/settings/BeanInitializer.class]: Failed to instantiate [jakarta.persistence.EntityManager]: Factory method 'entityManager' threw exception with message: Error creating bean with name 'entityManagerFactory' defined in class path resource [com/tms/settings/BeanInitializer.class]: Failed to instantiate [jakarta.persistence.EntityManagerFactory]: Factory method 'entityManagerFactory' threw exception with message: No Persistence provider for EntityManager named default
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
-	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:245)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1352)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1189)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
-	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1417)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
-	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:888)
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
-	... 33 common frames omitted
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManager' defined in class path resource [com/tms/settings/BeanInitializer.class]: Failed to instantiate [jakarta.persistence.EntityManager]: Factory method 'entityManager' threw exception with message: Error creating bean with name 'entityManagerFactory' defined in class path resource [com/tms/settings/BeanInitializer.class]: Failed to instantiate [jakarta.persistence.EntityManagerFactory]: Factory method 'entityManagerFactory' threw exception with message: No Persistence provider for EntityManager named default
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659)
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:493)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
-	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1417)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
-	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:888)
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
-	... 47 common frames omitted
-Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [jakarta.persistence.EntityManager]: Factory method 'entityManager' threw exception with message: Error creating bean with name 'entityManagerFactory' defined in class path resource [com/tms/settings/BeanInitializer.class]: Failed to instantiate [jakarta.persistence.EntityManagerFactory]: Factory method 'entityManagerFactory' threw exception with message: No Persistence provider for EntityManager named default
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171)
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655)
-	... 61 common frames omitted
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [com/tms/settings/BeanInitializer.class]: Failed to instantiate [jakarta.persistence.EntityManagerFactory]: Factory method 'entityManagerFactory' threw exception with message: No Persistence provider for EntityManager named default
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659)
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:493)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
-	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.resolveBeanReference(ConfigurationClassEnhancer.java:362)
-	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:334)
-	at com.tms.settings.BeanInitializer$$SpringCGLIB$$0.entityManagerFactory(<generated>)
-	at com.tms.settings.BeanInitializer.entityManager(BeanInitializer.java:32)
-	at com.tms.settings.BeanInitializer$$SpringCGLIB$$0.CGLIB$entityManager$2(<generated>)
-	at com.tms.settings.BeanInitializer$$SpringCGLIB$$2.invoke(<generated>)
-	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258)
-	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
-	at com.tms.settings.BeanInitializer$$SpringCGLIB$$0.entityManager(<generated>)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139)
-	... 62 common frames omitted
-Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [jakarta.persistence.EntityManagerFactory]: Factory method 'entityManagerFactory' threw exception with message: No Persistence provider for EntityManager named default
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171)
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655)
-	... 85 common frames omitted
-Caused by: jakarta.persistence.PersistenceException: No Persistence provider for EntityManager named default
-	at jakarta.persistence.Persistence.createEntityManagerFactory(Persistence.java:86)
-	at jakarta.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
-	at com.tms.settings.BeanInitializer.entityManagerFactory(BeanInitializer.java:28)
-	at com.tms.settings.BeanInitializer$$SpringCGLIB$$0.CGLIB$entityManagerFactory$1(<generated>)
-	at com.tms.settings.BeanInitializer$$SpringCGLIB$$2.invoke(<generated>)
-	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258)
-	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
-	at com.tms.settings.BeanInitializer$$SpringCGLIB$$0.entityManagerFactory(<generated>)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139)
-	... 86 common frames omitted
-11-10-2023 20:08:44.585 [main] INFO  com.tms.Main.logStarting - Starting Main using Java 17.0.7 with PID 15256 (C:\Users\Алексей\IdeaProjects\servlet-app-67\target\classes started by Алексей in C:\Users\Алексей\IdeaProjects\servlet-app-67)
-11-10-2023 20:08:44.588 [main] INFO  com.tms.Main.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
-11-10-2023 20:08:46.235 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
-11-10-2023 20:08:46.244 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
-11-10-2023 20:08:46.245 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.12]
-11-10-2023 20:08:46.482 [main] INFO  o.apache.jasper.servlet.TldScanner.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-11-10-2023 20:08:46.488 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
-11-10-2023 20:08:46.488 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1840 ms
-11-10-2023 20:08:46.807 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.2.1.Final
-11-10-2023 20:08:46.811 [main] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000406: Using bytecode reflection optimizer
-11-10-2023 20:08:47.284 [main] WARN  o.hibernate.orm.connections.pooling.configure - HHH10001002: Using built-in connection pool (not intended for production use)
-11-10-2023 20:08:47.289 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
-11-10-2023 20:08:47.289 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost/group-67-database]
-11-10-2023 20:08:47.289 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001001: Connection properties: {password=****, user=postgres}
-11-10-2023 20:08:47.290 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001003: Autocommit mode: false
-11-10-2023 20:08:47.293 [main] INFO  o.hibernate.orm.connections.pooling.<init> - HHH10001115: Connection pool size: 20 (min=1)
-11-10-2023 20:08:47.581 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@5d5ae6aa
-11-10-2023 20:08:47.830 [main] INFO  o.h.b.i.BytecodeProviderInitiator.buildBytecodeProvider - HHH000021: Bytecode provider name : bytebuddy
-11-10-2023 20:08:48.797 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-11-10-2023 20:08:50.778 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 4 endpoint(s) beneath base path '/actuator'
-11-10-2023 20:08:50.858 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
-11-10-2023 20:08:50.874 [main] INFO  com.tms.Main.logStarted - Started Main in 6.787 seconds (process running for 7.582)
-11-10-2023 20:08:51.185 [RMI TCP Connection(2)-192.168.1.70] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
-11-10-2023 20:08:51.186 [RMI TCP Connection(2)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
-11-10-2023 20:08:51.188 [RMI TCP Connection(2)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
-11-10-2023 20:20:11.312 [SpringApplicationShutdownHook] INFO  o.hibernate.orm.connections.pooling.stop - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost/group-67-database]
-11-10-2023 20:25:45.563 [main] INFO  com.tms.Main.logStarting - Starting Main using Java 17.0.7 with PID 8516 (C:\Users\Алексей\IdeaProjects\servlet-app-67\target\classes started by Алексей in C:\Users\Алексей\IdeaProjects\servlet-app-67)
-11-10-2023 20:25:45.566 [main] INFO  com.tms.Main.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
-11-10-2023 20:25:47.425 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
-11-10-2023 20:25:47.437 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
-11-10-2023 20:25:47.437 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.12]
-11-10-2023 20:25:47.680 [main] INFO  o.apache.jasper.servlet.TldScanner.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-11-10-2023 20:25:47.686 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
-11-10-2023 20:25:47.687 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2057 ms
-11-10-2023 20:25:48.045 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.2.1.Final
-11-10-2023 20:25:48.050 [main] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000406: Using bytecode reflection optimizer
-11-10-2023 20:25:48.518 [main] WARN  o.hibernate.orm.connections.pooling.configure - HHH10001002: Using built-in connection pool (not intended for production use)
-11-10-2023 20:25:48.524 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
-11-10-2023 20:25:48.525 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost/group-67-database]
-11-10-2023 20:25:48.525 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001001: Connection properties: {password=****, user=postgres}
-11-10-2023 20:25:48.526 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001003: Autocommit mode: false
-11-10-2023 20:25:48.530 [main] INFO  o.hibernate.orm.connections.pooling.<init> - HHH10001115: Connection pool size: 20 (min=1)
-11-10-2023 20:25:48.900 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@55746340
-11-10-2023 20:25:49.174 [main] INFO  o.h.b.i.BytecodeProviderInitiator.buildBytecodeProvider - HHH000021: Bytecode provider name : bytebuddy
-11-10-2023 20:25:49.961 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-11-10-2023 20:25:51.858 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 4 endpoint(s) beneath base path '/actuator'
-11-10-2023 20:25:51.978 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
-11-10-2023 20:25:51.991 [main] INFO  com.tms.Main.logStarted - Started Main in 6.981 seconds (process running for 7.864)
-11-10-2023 20:25:52.125 [RMI TCP Connection(5)-192.168.1.70] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
-11-10-2023 20:25:52.126 [RMI TCP Connection(5)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
-11-10-2023 20:25:52.127 [RMI TCP Connection(5)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
-11-10-2023 20:25:56.879 [http-nio-8080-exec-2] INFO  com.tms.controller.PersonController.getAll - Метод работает
-11-10-2023 20:27:02.740 [http-nio-8080-exec-4] WARN  o.h.e.jdbc.spi.SqlExceptionHelper.logExceptions - SQL Error: 0, SQLState: 23502
-11-10-2023 20:27:02.741 [http-nio-8080-exec-4] ERROR o.h.e.jdbc.spi.SqlExceptionHelper.logExceptions - ОШИБКА: значение NULL в столбце "person_role" отношения "person" нарушает ограничение NOT NULL
-  Подробности: Ошибочная строка содержит (26, Dima, Malibu, 18, t, 2023-10-11 20:27:02.666357, null).
-11-10-2023 20:27:02.754 [http-nio-8080-exec-4] WARN  com.tms.repository.PersonRepository.create - We have problem with creation person:Person(id=26, firstName=Dima, secondName=Malibu, age=18, isMarried=true, created=2023-10-11 20:27:02.6663565, role=null). The ex:org.hibernate.exception.ConstraintViolationException: could not execute statement [ОШИБКА: значение NULL в столбце "person_role" отношения "person" нарушает ограничение NOT NULL
-  Подробности: Ошибочная строка содержит (26, Dima, Malibu, 18, t, 2023-10-11 20:27:02.666357, null).] [insert into person (age,created,first_name,is_married,person_role,second_name,id) values (?,?,?,?,?,?,?)]
-11-10-2023 20:27:23.299 [http-nio-8080-exec-5] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
-11-10-2023 20:28:03.104 [http-nio-8080-exec-6] WARN  o.h.e.jdbc.spi.SqlExceptionHelper.logExceptions - SQL Error: 0, SQLState: 23502
-11-10-2023 20:28:03.105 [http-nio-8080-exec-6] ERROR o.h.e.jdbc.spi.SqlExceptionHelper.logExceptions - ОШИБКА: значение NULL в столбце "person_role" отношения "person" нарушает ограничение NOT NULL
-  Подробности: Ошибочная строка содержит (27, Dima, Malibu, 18, t, 2023-10-11 20:28:03.10161, null).
-11-10-2023 20:28:03.106 [http-nio-8080-exec-6] WARN  com.tms.repository.PersonRepository.create - We have problem with creation person:Person(id=27, firstName=Dima, secondName=Malibu, age=18, isMarried=true, created=2023-10-11 20:28:03.1016102, role=null). The ex:org.hibernate.exception.ConstraintViolationException: could not execute statement [ОШИБКА: значение NULL в столбце "person_role" отношения "person" нарушает ограничение NOT NULL
-  Подробности: Ошибочная строка содержит (27, Dima, Malibu, 18, t, 2023-10-11 20:28:03.10161, null).] [insert into person (age,created,first_name,is_married,person_role,second_name,id) values (?,?,?,?,?,?,?)]
-11-10-2023 20:29:43.881 [SpringApplicationShutdownHook] INFO  o.hibernate.orm.connections.pooling.stop - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost/group-67-database]
-11-10-2023 20:29:48.350 [main] INFO  com.tms.Main.logStarting - Starting Main using Java 17.0.7 with PID 12972 (C:\Users\Алексей\IdeaProjects\servlet-app-67\target\classes started by Алексей in C:\Users\Алексей\IdeaProjects\servlet-app-67)
-11-10-2023 20:29:48.354 [main] INFO  com.tms.Main.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
-11-10-2023 20:29:50.093 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
-11-10-2023 20:29:50.103 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
-11-10-2023 20:29:50.103 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.12]
-11-10-2023 20:29:50.334 [main] INFO  o.apache.jasper.servlet.TldScanner.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-11-10-2023 20:29:50.340 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
-11-10-2023 20:29:50.340 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1924 ms
-11-10-2023 20:29:50.648 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.2.1.Final
-11-10-2023 20:29:50.652 [main] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000406: Using bytecode reflection optimizer
-11-10-2023 20:29:51.059 [main] WARN  o.hibernate.orm.connections.pooling.configure - HHH10001002: Using built-in connection pool (not intended for production use)
-11-10-2023 20:29:51.064 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
-11-10-2023 20:29:51.064 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost/group-67-database]
-11-10-2023 20:29:51.065 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001001: Connection properties: {password=****, user=postgres}
-11-10-2023 20:29:51.065 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001003: Autocommit mode: false
-11-10-2023 20:29:51.068 [main] INFO  o.hibernate.orm.connections.pooling.<init> - HHH10001115: Connection pool size: 20 (min=1)
-11-10-2023 20:29:51.280 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@6a0c7af6
-11-10-2023 20:29:51.523 [main] INFO  o.h.b.i.BytecodeProviderInitiator.buildBytecodeProvider - HHH000021: Bytecode provider name : bytebuddy
-11-10-2023 20:29:52.447 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-11-10-2023 20:29:54.185 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 4 endpoint(s) beneath base path '/actuator'
-11-10-2023 20:29:54.260 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
-11-10-2023 20:29:54.273 [main] INFO  com.tms.Main.logStarted - Started Main in 6.419 seconds (process running for 7.207)
-11-10-2023 20:29:54.879 [RMI TCP Connection(2)-192.168.1.70] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
-11-10-2023 20:29:54.879 [RMI TCP Connection(2)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
-11-10-2023 20:29:54.880 [RMI TCP Connection(2)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
-11-10-2023 20:30:54.847 [http-nio-8080-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' is not supported]
-11-10-2023 20:49:01.499 [SpringApplicationShutdownHook] INFO  o.hibernate.orm.connections.pooling.stop - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost/group-67-database]
-11-10-2023 20:49:06.033 [main] INFO  com.tms.Main.logStarting - Starting Main using Java 17.0.7 with PID 5988 (C:\Users\Алексей\IdeaProjects\servlet-app-67\target\classes started by Алексей in C:\Users\Алексей\IdeaProjects\servlet-app-67)
-11-10-2023 20:49:06.035 [main] INFO  com.tms.Main.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
-11-10-2023 20:49:07.051 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
-11-10-2023 20:49:07.057 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
-11-10-2023 20:49:07.058 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.12]
-11-10-2023 20:49:07.202 [main] INFO  o.apache.jasper.servlet.TldScanner.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-11-10-2023 20:49:07.206 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
-11-10-2023 20:49:07.206 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1135 ms
-11-10-2023 20:49:07.410 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.2.1.Final
-11-10-2023 20:49:07.413 [main] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000406: Using bytecode reflection optimizer
-11-10-2023 20:49:07.669 [main] WARN  o.hibernate.orm.connections.pooling.configure - HHH10001002: Using built-in connection pool (not intended for production use)
-11-10-2023 20:49:07.672 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
-11-10-2023 20:49:07.673 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost/group-67-database]
-11-10-2023 20:49:07.673 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001001: Connection properties: {password=****, user=postgres}
-11-10-2023 20:49:07.673 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001003: Autocommit mode: false
-11-10-2023 20:49:07.675 [main] INFO  o.hibernate.orm.connections.pooling.<init> - HHH10001115: Connection pool size: 20 (min=1)
-11-10-2023 20:49:07.806 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@5d5ae6aa
-11-10-2023 20:49:07.955 [main] INFO  o.h.b.i.BytecodeProviderInitiator.buildBytecodeProvider - HHH000021: Bytecode provider name : bytebuddy
-11-10-2023 20:49:08.495 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-11-10-2023 20:49:09.751 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 4 endpoint(s) beneath base path '/actuator'
-11-10-2023 20:49:09.817 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
-11-10-2023 20:49:09.827 [main] INFO  com.tms.Main.logStarted - Started Main in 4.094 seconds (process running for 4.914)
-11-10-2023 20:49:10.095 [RMI TCP Connection(2)-192.168.1.70] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
-11-10-2023 20:49:10.096 [RMI TCP Connection(2)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
-11-10-2023 20:49:10.097 [RMI TCP Connection(2)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
-11-10-2023 20:49:13.888 [http-nio-8080-exec-2] INFO  com.tms.controller.PersonController.getAll - Метод работает
-11-10-2023 20:51:57.419 [http-nio-8080-exec-7] INFO  com.tms.controller.PersonController.getAll - Метод работает
-11-10-2023 20:52:48.108 [SpringApplicationShutdownHook] INFO  o.hibernate.orm.connections.pooling.stop - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost/group-67-database]
-11-10-2023 21:12:36.157 [main] INFO  com.tms.Main.logStarting - Starting Main using Java 17.0.7 with PID 8836 (C:\Users\Алексей\IdeaProjects\servlet-app-67\target\classes started by Алексей in C:\Users\Алексей\IdeaProjects\servlet-app-67)
-11-10-2023 21:12:36.159 [main] INFO  com.tms.Main.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
-11-10-2023 21:12:37.226 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
-11-10-2023 21:12:37.232 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
-11-10-2023 21:12:37.232 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.12]
-11-10-2023 21:12:37.367 [main] INFO  o.apache.jasper.servlet.TldScanner.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-11-10-2023 21:12:37.371 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
-11-10-2023 21:12:37.371 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1171 ms
-11-10-2023 21:12:37.561 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.2.1.Final
-11-10-2023 21:12:37.563 [main] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000406: Using bytecode reflection optimizer
-11-10-2023 21:12:37.810 [main] WARN  o.hibernate.orm.connections.pooling.configure - HHH10001002: Using built-in connection pool (not intended for production use)
-11-10-2023 21:12:37.813 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
-11-10-2023 21:12:37.813 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost/group-67-database]
-11-10-2023 21:12:37.813 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001001: Connection properties: {password=****, user=postgres}
-11-10-2023 21:12:37.813 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001003: Autocommit mode: false
-11-10-2023 21:12:37.815 [main] INFO  o.hibernate.orm.connections.pooling.<init> - HHH10001115: Connection pool size: 20 (min=1)
-11-10-2023 21:12:37.940 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@46d69ca4
-11-10-2023 21:12:38.095 [main] INFO  o.h.b.i.BytecodeProviderInitiator.buildBytecodeProvider - HHH000021: Bytecode provider name : bytebuddy
-11-10-2023 21:12:38.661 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-11-10-2023 21:12:39.921 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 4 endpoint(s) beneath base path '/actuator'
-11-10-2023 21:12:39.984 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
-11-10-2023 21:12:39.994 [main] INFO  com.tms.Main.logStarted - Started Main in 4.144 seconds (process running for 4.69)
-11-10-2023 21:12:40.102 [RMI TCP Connection(3)-192.168.1.70] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
-11-10-2023 21:12:40.103 [RMI TCP Connection(3)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
-11-10-2023 21:12:40.103 [RMI TCP Connection(3)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 0 ms
-11-10-2023 21:12:48.663 [http-nio-8080-exec-1] WARN  c.t.e.ExceptionResolver.exceptionHandlerMethod - java.lang.IllegalArgumentException: org.hibernate.query.SemanticException: Could not interpret path expression 'person.id'
-11-10-2023 21:12:54.079 [http-nio-8080-exec-3] WARN  c.t.e.ExceptionResolver.exceptionHandlerMethod - java.lang.IllegalArgumentException: org.hibernate.query.SemanticException: Could not interpret path expression 'person.id'
-11-10-2023 21:14:19.321 [SpringApplicationShutdownHook] INFO  o.hibernate.orm.connections.pooling.stop - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost/group-67-database]
-11-10-2023 21:14:22.188 [main] INFO  com.tms.Main.logStarting - Starting Main using Java 17.0.7 with PID 11828 (C:\Users\Алексей\IdeaProjects\servlet-app-67\target\classes started by Алексей in C:\Users\Алексей\IdeaProjects\servlet-app-67)
-11-10-2023 21:14:22.191 [main] INFO  com.tms.Main.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
-11-10-2023 21:14:23.179 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
-11-10-2023 21:14:23.185 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
-11-10-2023 21:14:23.185 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.12]
-11-10-2023 21:14:23.313 [main] INFO  o.apache.jasper.servlet.TldScanner.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-11-10-2023 21:14:23.316 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
-11-10-2023 21:14:23.317 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1090 ms
-11-10-2023 21:14:23.506 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.2.1.Final
-11-10-2023 21:14:23.508 [main] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000406: Using bytecode reflection optimizer
-11-10-2023 21:14:23.750 [main] WARN  o.hibernate.orm.connections.pooling.configure - HHH10001002: Using built-in connection pool (not intended for production use)
-11-10-2023 21:14:23.753 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
-11-10-2023 21:14:23.753 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost/group-67-database]
-11-10-2023 21:14:23.753 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001001: Connection properties: {password=****, user=postgres}
-11-10-2023 21:14:23.754 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001003: Autocommit mode: false
-11-10-2023 21:14:23.755 [main] INFO  o.hibernate.orm.connections.pooling.<init> - HHH10001115: Connection pool size: 20 (min=1)
-11-10-2023 21:14:23.883 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@5c9b5e62
-11-10-2023 21:14:24.029 [main] INFO  o.h.b.i.BytecodeProviderInitiator.buildBytecodeProvider - HHH000021: Bytecode provider name : bytebuddy
-11-10-2023 21:14:24.566 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-11-10-2023 21:14:25.814 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 4 endpoint(s) beneath base path '/actuator'
-11-10-2023 21:14:25.876 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
-11-10-2023 21:14:25.886 [main] INFO  com.tms.Main.logStarted - Started Main in 3.995 seconds (process running for 4.47)
-11-10-2023 21:14:26.074 [RMI TCP Connection(3)-192.168.1.70] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
-11-10-2023 21:14:26.074 [RMI TCP Connection(3)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
-11-10-2023 21:14:26.075 [RMI TCP Connection(3)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
-11-10-2023 21:28:20.157 [SpringApplicationShutdownHook] INFO  o.hibernate.orm.connections.pooling.stop - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost/group-67-database]
-11-10-2023 21:28:23.334 [main] INFO  com.tms.Main.logStarting - Starting Main using Java 17.0.7 with PID 10880 (C:\Users\Алексей\IdeaProjects\servlet-app-67\target\classes started by Алексей in C:\Users\Алексей\IdeaProjects\servlet-app-67)
-11-10-2023 21:28:23.336 [main] INFO  com.tms.Main.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
-11-10-2023 21:28:24.359 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
-11-10-2023 21:28:24.366 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
-11-10-2023 21:28:24.366 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.12]
-11-10-2023 21:28:24.505 [main] INFO  o.apache.jasper.servlet.TldScanner.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-11-10-2023 21:28:24.508 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
-11-10-2023 21:28:24.509 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1136 ms
-11-10-2023 21:28:24.704 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.2.1.Final
-11-10-2023 21:28:24.706 [main] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000406: Using bytecode reflection optimizer
-11-10-2023 21:28:24.950 [main] WARN  o.hibernate.orm.connections.pooling.configure - HHH10001002: Using built-in connection pool (not intended for production use)
-11-10-2023 21:28:24.952 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
-11-10-2023 21:28:24.953 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost/group-67-database]
-11-10-2023 21:28:24.953 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001001: Connection properties: {password=****, user=postgres}
-11-10-2023 21:28:24.953 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001003: Autocommit mode: false
-11-10-2023 21:28:24.955 [main] INFO  o.hibernate.orm.connections.pooling.<init> - HHH10001115: Connection pool size: 20 (min=1)
-11-10-2023 21:28:25.083 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@46d69ca4
-11-10-2023 21:28:25.243 [main] INFO  o.h.b.i.BytecodeProviderInitiator.buildBytecodeProvider - HHH000021: Bytecode provider name : bytebuddy
-11-10-2023 21:28:25.811 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-11-10-2023 21:28:27.089 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 4 endpoint(s) beneath base path '/actuator'
-11-10-2023 21:28:27.151 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
-11-10-2023 21:28:27.162 [main] INFO  com.tms.Main.logStarted - Started Main in 4.146 seconds (process running for 4.711)
-11-10-2023 21:28:27.737 [RMI TCP Connection(1)-192.168.1.70] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
-11-10-2023 21:28:27.737 [RMI TCP Connection(1)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
-11-10-2023 21:28:27.738 [RMI TCP Connection(1)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
-11-10-2023 21:29:31.463 [http-nio-8080-exec-4] WARN  com.tms.repository.PersonRepository.update - We have problem with updating person:Person(id=1, firstName=Oleg, secondName=Borisov, age=35, isMarried=false, created=null, role=null). The ex:java.lang.IllegalArgumentException: org.hibernate.query.IllegalQueryOperationException: Result type given for a non-SELECT Query [update person set firstName=:firstName,secondName=:secondName,age=:age,isMarried=:isMarried,role=:role where id=:id]
-11-10-2023 21:35:20.394 [SpringApplicationShutdownHook] INFO  o.hibernate.orm.connections.pooling.stop - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost/group-67-database]
-11-10-2023 21:35:23.366 [main] INFO  com.tms.Main.logStarting - Starting Main using Java 17.0.7 with PID 13060 (C:\Users\Алексей\IdeaProjects\servlet-app-67\target\classes started by Алексей in C:\Users\Алексей\IdeaProjects\servlet-app-67)
-11-10-2023 21:35:23.368 [main] INFO  com.tms.Main.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
-11-10-2023 21:35:24.359 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
-11-10-2023 21:35:24.365 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
-11-10-2023 21:35:24.366 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.12]
-11-10-2023 21:35:24.494 [main] INFO  o.apache.jasper.servlet.TldScanner.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-11-10-2023 21:35:24.498 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
-11-10-2023 21:35:24.498 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1094 ms
-11-10-2023 21:35:24.685 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.2.1.Final
-11-10-2023 21:35:24.688 [main] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000406: Using bytecode reflection optimizer
-11-10-2023 21:35:24.931 [main] WARN  o.hibernate.orm.connections.pooling.configure - HHH10001002: Using built-in connection pool (not intended for production use)
-11-10-2023 21:35:24.933 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
-11-10-2023 21:35:24.933 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost/group-67-database]
-11-10-2023 21:35:24.934 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001001: Connection properties: {password=****, user=postgres}
-11-10-2023 21:35:24.934 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001003: Autocommit mode: false
-11-10-2023 21:35:24.936 [main] INFO  o.hibernate.orm.connections.pooling.<init> - HHH10001115: Connection pool size: 20 (min=1)
-11-10-2023 21:35:25.061 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@5c9b5e62
-11-10-2023 21:35:25.205 [main] INFO  o.h.b.i.BytecodeProviderInitiator.buildBytecodeProvider - HHH000021: Bytecode provider name : bytebuddy
-11-10-2023 21:35:25.741 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-11-10-2023 21:35:26.982 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 4 endpoint(s) beneath base path '/actuator'
-11-10-2023 21:35:27.042 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
-11-10-2023 21:35:27.052 [main] INFO  com.tms.Main.logStarted - Started Main in 3.986 seconds (process running for 4.524)
-11-10-2023 21:35:27.336 [RMI TCP Connection(2)-192.168.1.70] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
-11-10-2023 21:35:27.336 [RMI TCP Connection(2)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
-11-10-2023 21:35:27.337 [RMI TCP Connection(2)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
-11-10-2023 21:35:40.240 [http-nio-8080-exec-1] WARN  o.h.e.jdbc.spi.SqlExceptionHelper.logExceptions - SQL Error: 0, SQLState: 23502
-11-10-2023 21:35:40.240 [http-nio-8080-exec-1] ERROR o.h.e.jdbc.spi.SqlExceptionHelper.logExceptions - ОШИБКА: значение NULL в столбце "person_role" отношения "person" нарушает ограничение NOT NULL
-  Подробности: Ошибочная строка содержит (1, Oleg, Borisov, 35, f, 2023-08-16 21:16:05, null).
-11-10-2023 21:35:40.247 [http-nio-8080-exec-1] WARN  com.tms.repository.PersonRepository.update - We have problem with updating person:Person(id=1, firstName=Oleg, secondName=Borisov, age=35, isMarried=false, created=null, role=null). The ex:org.hibernate.exception.ConstraintViolationException: JDBC exception executing SQL [update person set first_name=?,second_name=?,age=?,is_married=?,person_role=? where id=?] [ОШИБКА: значение NULL в столбце "person_role" отношения "person" нарушает ограничение NOT NULL
-  Подробности: Ошибочная строка содержит (1, Oleg, Borisov, 35, f, 2023-08-16 21:16:05, null).] [n/a]
-11-10-2023 21:36:32.917 [http-nio-8080-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' is not supported]
-11-10-2023 21:38:19.695 [http-nio-8080-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' is not supported]
-11-10-2023 21:46:30.615 [SpringApplicationShutdownHook] INFO  o.hibernate.orm.connections.pooling.stop - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost/group-67-database]
-11-10-2023 21:46:34.665 [main] INFO  com.tms.Main.logStarting - Starting Main using Java 17.0.7 with PID 2196 (C:\Users\Алексей\IdeaProjects\servlet-app-67\target\classes started by Алексей in C:\Users\Алексей\IdeaProjects\servlet-app-67)
-11-10-2023 21:46:34.667 [main] INFO  com.tms.Main.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
-11-10-2023 21:46:35.692 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
-11-10-2023 21:46:35.698 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
-11-10-2023 21:46:35.698 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.12]
-11-10-2023 21:46:35.832 [main] INFO  o.apache.jasper.servlet.TldScanner.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-11-10-2023 21:46:35.836 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
-11-10-2023 21:46:35.837 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1134 ms
-11-10-2023 21:46:36.026 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.2.1.Final
-11-10-2023 21:46:36.028 [main] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000406: Using bytecode reflection optimizer
-11-10-2023 21:46:36.273 [main] WARN  o.hibernate.orm.connections.pooling.configure - HHH10001002: Using built-in connection pool (not intended for production use)
-11-10-2023 21:46:36.276 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
-11-10-2023 21:46:36.276 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost/group-67-database]
-11-10-2023 21:46:36.276 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001001: Connection properties: {password=****, user=postgres}
-11-10-2023 21:46:36.277 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001003: Autocommit mode: false
-11-10-2023 21:46:36.278 [main] INFO  o.hibernate.orm.connections.pooling.<init> - HHH10001115: Connection pool size: 20 (min=1)
-11-10-2023 21:46:36.404 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@46d69ca4
-11-10-2023 21:46:36.549 [main] INFO  o.h.b.i.BytecodeProviderInitiator.buildBytecodeProvider - HHH000021: Bytecode provider name : bytebuddy
-11-10-2023 21:46:37.084 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-11-10-2023 21:46:38.317 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 4 endpoint(s) beneath base path '/actuator'
-11-10-2023 21:46:38.377 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
-11-10-2023 21:46:38.387 [main] INFO  com.tms.Main.logStarted - Started Main in 4.017 seconds (process running for 4.488)
-11-10-2023 21:46:38.668 [RMI TCP Connection(2)-192.168.1.70] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
-11-10-2023 21:46:38.668 [RMI TCP Connection(2)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
-11-10-2023 21:46:38.669 [RMI TCP Connection(2)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
-11-10-2023 21:46:54.367 [http-nio-8080-exec-2] INFO  com.tms.controller.PersonController.getAll - Метод работает
+16-10-2023 20:35:43.269 [main] INFO  com.tms.Main.logStarting - Starting Main using Java 17.0.7 with PID 6248 (C:\Users\Алексей\IdeaProjects\servlet-app-67\target\classes started by Алексей in C:\Users\Алексей\IdeaProjects\servlet-app-67)
+16-10-2023 20:35:43.275 [main] INFO  com.tms.Main.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+16-10-2023 20:35:44.700 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+16-10-2023 20:35:44.709 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+16-10-2023 20:35:44.709 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.12]
+16-10-2023 20:35:44.908 [main] INFO  o.apache.jasper.servlet.TldScanner.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-10-2023 20:35:44.913 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+16-10-2023 20:35:44.913 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1577 ms
+16-10-2023 20:35:45.164 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.2.1.Final
+16-10-2023 20:35:45.168 [main] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000406: Using bytecode reflection optimizer
+16-10-2023 20:35:45.526 [main] WARN  o.hibernate.orm.connections.pooling.configure - HHH10001002: Using built-in connection pool (not intended for production use)
+16-10-2023 20:35:45.530 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+16-10-2023 20:35:45.531 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost/group-67-database]
+16-10-2023 20:35:45.531 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001001: Connection properties: {password=****, user=postgres}
+16-10-2023 20:35:45.532 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001003: Autocommit mode: false
+16-10-2023 20:35:45.534 [main] INFO  o.hibernate.orm.connections.pooling.<init> - HHH10001115: Connection pool size: 20 (min=1)
+16-10-2023 20:35:45.718 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@3909a854
+16-10-2023 20:35:45.962 [main] INFO  o.h.b.i.BytecodeProviderInitiator.buildBytecodeProvider - HHH000021: Bytecode provider name : bytebuddy
+16-10-2023 20:35:46.757 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16-10-2023 20:35:48.416 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 4 endpoint(s) beneath base path '/actuator'
+16-10-2023 20:35:48.502 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+16-10-2023 20:35:48.515 [main] INFO  com.tms.Main.logStarted - Started Main in 5.719 seconds (process running for 7.095)
+16-10-2023 20:35:48.861 [RMI TCP Connection(3)-192.168.1.70] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16-10-2023 20:35:48.861 [RMI TCP Connection(3)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+16-10-2023 20:35:48.862 [RMI TCP Connection(3)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
+16-10-2023 21:10:31.196 [SpringApplicationShutdownHook] INFO  o.hibernate.orm.connections.pooling.stop - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost/group-67-database]
+16-10-2023 21:10:36.181 [main] INFO  com.tms.Main.logStarting - Starting Main using Java 17.0.7 with PID 16604 (C:\Users\Алексей\IdeaProjects\servlet-app-67\target\classes started by Алексей in C:\Users\Алексей\IdeaProjects\servlet-app-67)
+16-10-2023 21:10:36.184 [main] INFO  com.tms.Main.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+16-10-2023 21:10:38.071 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+16-10-2023 21:10:38.082 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+16-10-2023 21:10:38.082 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.12]
+16-10-2023 21:10:38.341 [main] INFO  o.apache.jasper.servlet.TldScanner.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-10-2023 21:10:38.348 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+16-10-2023 21:10:38.349 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2100 ms
+16-10-2023 21:10:38.705 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.2.1.Final
+16-10-2023 21:10:38.709 [main] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000406: Using bytecode reflection optimizer
+16-10-2023 21:10:39.203 [main] WARN  o.hibernate.orm.connections.pooling.configure - HHH10001002: Using built-in connection pool (not intended for production use)
+16-10-2023 21:10:39.208 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+16-10-2023 21:10:39.208 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost/group-67-database]
+16-10-2023 21:10:39.209 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001001: Connection properties: {password=****, user=postgres}
+16-10-2023 21:10:39.209 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001003: Autocommit mode: false
+16-10-2023 21:10:39.213 [main] INFO  o.hibernate.orm.connections.pooling.<init> - HHH10001115: Connection pool size: 20 (min=1)
+16-10-2023 21:10:39.460 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@1ba7db2a
+16-10-2023 21:10:39.787 [main] INFO  o.h.b.i.BytecodeProviderInitiator.buildBytecodeProvider - HHH000021: Bytecode provider name : bytebuddy
+16-10-2023 21:10:40.979 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16-10-2023 21:10:42.710 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 4 endpoint(s) beneath base path '/actuator'
+16-10-2023 21:10:42.795 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+16-10-2023 21:10:42.808 [main] INFO  com.tms.Main.logStarted - Started Main in 7.147 seconds (process running for 8.356)
+16-10-2023 21:10:43.127 [RMI TCP Connection(1)-192.168.1.70] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16-10-2023 21:10:43.128 [RMI TCP Connection(1)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+16-10-2023 21:10:43.129 [RMI TCP Connection(1)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
+16-10-2023 21:18:25.272 [SpringApplicationShutdownHook] INFO  o.hibernate.orm.connections.pooling.stop - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost/group-67-database]
+16-10-2023 21:18:30.200 [main] INFO  com.tms.Main.logStarting - Starting Main using Java 17.0.7 with PID 11068 (C:\Users\Алексей\IdeaProjects\servlet-app-67\target\classes started by Алексей in C:\Users\Алексей\IdeaProjects\servlet-app-67)
+16-10-2023 21:18:30.204 [main] INFO  com.tms.Main.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+16-10-2023 21:18:32.060 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+16-10-2023 21:18:32.071 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+16-10-2023 21:18:32.071 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.12]
+16-10-2023 21:18:32.341 [main] INFO  o.apache.jasper.servlet.TldScanner.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-10-2023 21:18:32.348 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+16-10-2023 21:18:32.349 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2082 ms
+16-10-2023 21:18:32.717 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.2.1.Final
+16-10-2023 21:18:32.722 [main] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000406: Using bytecode reflection optimizer
+16-10-2023 21:18:33.216 [main] WARN  o.hibernate.orm.connections.pooling.configure - HHH10001002: Using built-in connection pool (not intended for production use)
+16-10-2023 21:18:33.220 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+16-10-2023 21:18:33.220 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost/group-67-database]
+16-10-2023 21:18:33.222 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001001: Connection properties: {password=****, user=postgres}
+16-10-2023 21:18:33.222 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001003: Autocommit mode: false
+16-10-2023 21:18:33.225 [main] INFO  o.hibernate.orm.connections.pooling.<init> - HHH10001115: Connection pool size: 20 (min=1)
+16-10-2023 21:18:33.472 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@1ba7db2a
+16-10-2023 21:18:33.799 [main] INFO  o.h.b.i.BytecodeProviderInitiator.buildBytecodeProvider - HHH000021: Bytecode provider name : bytebuddy
+16-10-2023 21:18:34.808 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16-10-2023 21:18:36.529 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 4 endpoint(s) beneath base path '/actuator'
+16-10-2023 21:18:36.612 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+16-10-2023 21:18:36.625 [main] INFO  com.tms.Main.logStarted - Started Main in 6.981 seconds (process running for 7.937)
+16-10-2023 21:18:36.899 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16-10-2023 21:18:36.899 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+16-10-2023 21:18:36.900 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
+16-10-2023 21:23:25.967 [SpringApplicationShutdownHook] INFO  o.hibernate.orm.connections.pooling.stop - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost/group-67-database]
+16-10-2023 21:29:30.125 [main] INFO  com.tms.Main.logStarting - Starting Main using Java 17.0.7 with PID 8796 (C:\Users\Алексей\IdeaProjects\servlet-app-67\target\classes started by Алексей in C:\Users\Алексей\IdeaProjects\servlet-app-67)
+16-10-2023 21:29:30.128 [main] INFO  com.tms.Main.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+16-10-2023 21:29:31.892 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+16-10-2023 21:29:31.902 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+16-10-2023 21:29:31.903 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.12]
+16-10-2023 21:29:32.140 [main] INFO  o.apache.jasper.servlet.TldScanner.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-10-2023 21:29:32.145 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+16-10-2023 21:29:32.146 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1956 ms
+16-10-2023 21:29:32.470 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.2.1.Final
+16-10-2023 21:29:32.473 [main] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000406: Using bytecode reflection optimizer
+16-10-2023 21:29:32.884 [main] WARN  o.hibernate.orm.connections.pooling.configure - HHH10001002: Using built-in connection pool (not intended for production use)
+16-10-2023 21:29:32.888 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+16-10-2023 21:29:32.888 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost/group-67-database]
+16-10-2023 21:29:32.889 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001001: Connection properties: {password=****, user=postgres}
+16-10-2023 21:29:32.889 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001003: Autocommit mode: false
+16-10-2023 21:29:32.892 [main] INFO  o.hibernate.orm.connections.pooling.<init> - HHH10001115: Connection pool size: 20 (min=1)
+16-10-2023 21:29:33.105 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@2095c331
+16-10-2023 21:29:33.395 [main] INFO  o.h.b.i.BytecodeProviderInitiator.buildBytecodeProvider - HHH000021: Bytecode provider name : bytebuddy
+16-10-2023 21:29:34.325 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16-10-2023 21:29:36.007 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 4 endpoint(s) beneath base path '/actuator'
+16-10-2023 21:29:36.100 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+16-10-2023 21:29:36.112 [main] INFO  com.tms.Main.logStarted - Started Main in 6.471 seconds (process running for 7.294)
+16-10-2023 21:29:36.573 [RMI TCP Connection(2)-192.168.1.70] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16-10-2023 21:29:36.574 [RMI TCP Connection(2)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+16-10-2023 21:29:36.575 [RMI TCP Connection(2)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
+16-10-2023 21:29:39.172 [http-nio-8080-exec-2] WARN  c.t.e.ExceptionResolver.exceptionHandlerMethod - org.springframework.http.converter.HttpMessageNotWritableException: Could not write JSON: failed to lazily initialize a collection of role: com.tms.HiberLesson.Book.pages: could not initialize proxy - no Session
+16-10-2023 21:33:33.299 [SpringApplicationShutdownHook] INFO  o.hibernate.orm.connections.pooling.stop - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost/group-67-database]
+16-10-2023 21:36:22.141 [main] INFO  com.tms.Main.logStarting - Starting Main using Java 17.0.7 with PID 14276 (C:\Users\Алексей\IdeaProjects\servlet-app-67\target\classes started by Алексей in C:\Users\Алексей\IdeaProjects\servlet-app-67)
+16-10-2023 21:36:22.145 [main] INFO  com.tms.Main.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+16-10-2023 21:36:23.852 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+16-10-2023 21:36:23.862 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+16-10-2023 21:36:23.862 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/10.1.12]
+16-10-2023 21:36:24.112 [main] INFO  o.apache.jasper.servlet.TldScanner.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-10-2023 21:36:24.118 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+16-10-2023 21:36:24.119 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1914 ms
+16-10-2023 21:36:24.423 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.2.1.Final
+16-10-2023 21:36:24.427 [main] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000406: Using bytecode reflection optimizer
+16-10-2023 21:36:24.824 [main] WARN  o.hibernate.orm.connections.pooling.configure - HHH10001002: Using built-in connection pool (not intended for production use)
+16-10-2023 21:36:24.828 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+16-10-2023 21:36:24.829 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost/group-67-database]
+16-10-2023 21:36:24.829 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001001: Connection properties: {password=****, user=postgres}
+16-10-2023 21:36:24.829 [main] INFO  o.hibernate.orm.connections.pooling.buildCreator - HHH10001003: Autocommit mode: false
+16-10-2023 21:36:24.832 [main] INFO  o.hibernate.orm.connections.pooling.<init> - HHH10001115: Connection pool size: 20 (min=1)
+16-10-2023 21:36:25.047 [main] INFO  SQL dialect.logSelectedDialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@1d1c63af
+16-10-2023 21:36:25.331 [main] INFO  o.h.b.i.BytecodeProviderInitiator.buildBytecodeProvider - HHH000021: Bytecode provider name : bytebuddy
+16-10-2023 21:36:26.379 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16-10-2023 21:36:28.407 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 4 endpoint(s) beneath base path '/actuator'
+16-10-2023 21:36:28.486 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+16-10-2023 21:36:28.499 [main] INFO  com.tms.Main.logStarted - Started Main in 6.862 seconds (process running for 7.653)
+16-10-2023 21:36:28.640 [RMI TCP Connection(2)-192.168.1.70] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16-10-2023 21:36:28.640 [RMI TCP Connection(2)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+16-10-2023 21:36:28.641 [RMI TCP Connection(2)-192.168.1.70] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
+16-10-2023 21:36:34.759 [SpringApplicationShutdownHook] INFO  o.hibernate.orm.connections.pooling.stop - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost/group-67-database]
