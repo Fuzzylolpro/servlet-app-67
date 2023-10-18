@@ -17,8 +17,8 @@ import lombok.ToString;
 import java.util.Collection;
 
 @Data
-@ToString(exclude = {"pages", "authors"})
-@EqualsAndHashCode(exclude = {"pages", "authors"})
+@ToString(exclude = "authors")
+@EqualsAndHashCode(exclude =  "authors")
 @Entity(name = "books")
 public class Book {
     @Id
@@ -29,10 +29,7 @@ public class Book {
     @Column(name = "book_name")
     private String bookName;
 
-    @OneToMany(mappedBy = "book", fetch = FetchType.EAGER) // LAZY EAGER
-    private Collection<Page> pages;
 
-    @JsonBackReference
     @ManyToMany(mappedBy = "books", fetch = FetchType.EAGER)
     private Collection<Author> authors;
 }

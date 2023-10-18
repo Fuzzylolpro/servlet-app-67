@@ -32,7 +32,6 @@ public class Author {
     @JoinTable(name = "l_author_book",
             joinColumns = @JoinColumn(name = "author_id"),
             inverseJoinColumns = @JoinColumn(name = "book_id"))
-
     @ManyToMany(fetch = FetchType.EAGER)
     private Collection<Book> books;
 }
