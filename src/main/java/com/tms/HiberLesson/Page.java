@@ -24,7 +24,7 @@ public class Page {
     private Integer id;
     @Column(name = "text")
     private String text;
-    @JsonBackReference // не вычитывать Обьекты из бука
+    @JsonBackReference // не вычитывать Обьекты из Book
     @ManyToOne
     @JoinColumn(name = "book_id")
     private Book book;
