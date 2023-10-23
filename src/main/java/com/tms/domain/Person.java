@@ -42,8 +42,5 @@ public class Person {
     @Temporal(TemporalType.TIMESTAMP) // из строки в timestamp
     @Column(name = "created")
     private Timestamp created;
-    @Column(name = "person_role")
-    @Enumerated(EnumType.STRING) // из строки в enum
-    private Role role;
 }
 
